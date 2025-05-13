@@ -1,4 +1,10 @@
 import "../styles/Navbar.css";
+import "../styles/Animation.css";
+
+import pythonBook from '../assets/images/python-book.webp'; 
+import javaBook from '../assets/images/java-book.webp'; 
+import javascriptBook from '../assets/images/javascript-book.webp'; 
+
 
 function Navbar() {
     return (
@@ -6,7 +12,7 @@ function Navbar() {
             <div className="header-container">
                 <div className="logo">
                     <a href="./index.html">
-                        <img src="./images/logo.webp" alt="Rebell Gaming Logo" />
+                        <h2>I-TECH</h2>
                     </a>
                 </div>
                 <nav className="pc-nav">
@@ -282,7 +288,7 @@ function Navbar() {
                                             <a className="Product" href="#product-1">
                                                 <img
                                                     className="shop-item-image"
-                                                    src="./images/product-9-540x640.webp"
+                                                    src={pythonBook}
                                                     alt="Shop Item 1"
                                                 />
                                                 <div className="shop-item-heart">
@@ -313,7 +319,7 @@ function Navbar() {
                                             <a className="Product" href="#product-2">
                                                 <img
                                                     className="shop-item-image"
-                                                    src="./images/product-8-540x640.webp"
+                                                    src={javaBook}
                                                     alt="Shop Item 2"
                                                 />
                                                 <div className="shop-item-heart">
@@ -344,7 +350,7 @@ function Navbar() {
                                             <a className="Product" href="#product-3">
                                                 <img
                                                     className="shop-item-image"
-                                                    src="./images/product-7-540x640.webp"
+                                                    src={javascriptBook}
                                                     alt="Shop Item 3"
                                                 />
                                                 <div className="shop-item-heart">
@@ -426,19 +432,7 @@ function Navbar() {
                     </ul>
                 </nav>
                 <div className="button">
-                    <button>
-                        <a href="./index.html">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width={17}
-                                height={16}
-                                viewBox="0 0 17 16"
-                            >
-                                <path d="M13.3692 0.0876985C12.7972 -0.193306 9.89516 0.127699 7.80313 2.13473C4.50708 5.42578 4.58608 9.76185 4.58608 9.76185C4.58608 9.76185 4.47708 10.2079 4.01307 9.56085C2.99705 8.26583 3.52906 5.28678 3.58906 4.87177C3.67306 4.28676 3.30006 4.26976 3.14505 4.46277C-0.527003 9.56085 2.78905 13.7349 4.96008 15.0599C7.50212 16.611 12.5162 16.61 14.5132 12.2099C17.0013 6.7308 14.0862 0.438704 13.3692 0.0876985Z"></path>
-                            </svg>
-                            <h1>PURCHASE ON ENVATO</h1>
-                        </a>
-                    </button>
+                    
                 </div>
                 {/* mobile nav */}
                 <div className="icon">
@@ -582,19 +576,7 @@ function Navbar() {
                         </i>
                     </form>
                     <div className="button button-mobile">
-                        <button>
-                            <a href="./index.html">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width={17}
-                                    height={16}
-                                    viewBox="0 0 17 16"
-                                >
-                                    <path d="M13.3692 0.0876985C12.7972 -0.193306 9.89516 0.127699 7.80313 2.13473C4.50708 5.42578 4.58608 9.76185 4.58608 9.76185C4.58608 9.76185 4.47708 10.2079 4.01307 9.56085C2.99705 8.26583 3.52906 5.28678 3.58906 4.87177C3.67306 4.28676 3.30006 4.26976 3.14505 4.46277C-0.527003 9.56085 2.78905 13.7349 4.96008 15.0599C7.50212 16.611 12.5162 16.61 14.5132 12.2099C17.0013 6.7308 14.0862 0.438704 13.3692 0.0876985Z"></path>
-                                </svg>
-                                <h1>PURCHASE ON ENVATO</h1>
-                            </a>
-                        </button>
+                        
                     </div>
                 </nav>
             </div>

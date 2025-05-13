@@ -1,4 +1,36 @@
+@font-face {
+  font-family: 'cyborg';
+  src: url('../assets/fonts/cyborg.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oxanium';
+  src: url('../assets/fonts/Oxanium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oxanium-L';
+  src: url('../assets/fonts/Oxanium-Light.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Oxanium-M';
+  src: url('../assets/fonts/Oxanium-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+}
 header {
     position: fixed;
     top: 0;
@@ -26,15 +58,17 @@ header {
   
   /* logo */
   .header-container .logo {
-    margin: 32px 40px;
+    margin: 0px 40px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  .logo a img {
-    width: 100%;
-    height: 26px;
+  .logo a h2 {
+    font-family: 'cyborg';
+    font-weight: 100;
+    font-size: 20px;
+    color: #0099ff;
   }
   
   /* nav */
@@ -48,17 +82,17 @@ header {
   }
   nav ul li a {
     display: block;
-    font-size: 22px;
     font-weight: bolder;
-    font-size: 16px;
-    padding: 38px 18px;
+    font-size: 14px;
+    padding: 26px 18px;
+    font-family: 'Oxanium-M', sans-serif;
   }
   nav ul li a:hover {
-    color: #fff20e;
+    color: #0099ff;
     transition: all 0.3s ease;
   }
   nav ul li a:hover i {
-    color: #fff20e;
+    color: #0099ff;
     transition: all 0.3s ease;
   }
   nav ul li a i {
@@ -94,7 +128,7 @@ header {
     top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #fff20e;
+    background: #0099ff;
     color: #000;
     font-weight: bold;
     padding: 10px;
@@ -144,15 +178,15 @@ header {
   }
   
   nav ul li ul li a:hover {
-    color: #fff20e;
+    color: #0099ff;
     transition: all 0.3s ease;
   }
   nav ul li ul li a:hover i {
-    color: #fff20e;
+    color: #0099ff;
     transition: all 0.3s ease;
   }
   nav ul li ul li a h1 {
-    color: #fff20e;
+    color: #0099ff;
     font-family: "Oxanium", sans-serif;
     font-size: 14px;
     font-weight: 700;
@@ -219,10 +253,10 @@ header {
     font-weight: bolder;
   }
   .shop-item-name i {
-    color: #fff20e;
+    color: #0099ff;
   }
   .shop-item-name .shop-item-price {
-    color: #fff20e;
+    color: #0099ff;
     font-size: 20px;
   }
   .shop-item-top-1 {
@@ -312,7 +346,7 @@ header {
     transform: translate(-50%, 0);
   }
   .shop-item-add:hover {
-    background: #fff20e;
+    background: #0099ff;
     color: #000;
     transition: all 0.5s ease;
   }
@@ -342,6 +376,7 @@ header {
   }
   .contact li {
     height: 400px;
+    font-family: 'Oxanium-M', sans-serif;
   }
   .contact .contact-1 {
     width: 20%;
@@ -380,7 +415,7 @@ header {
     cursor: pointer;
   }
   .content-icon i:hover {
-    background: #fff20e;
+    background: #0099ff;
     color: #000;
     transition: all 0.3s ease;
   }
@@ -441,7 +476,7 @@ header {
   
   .contact button {
     width: 40%;
-    background: #fff20e;
+    background: #0099ff;
     color: black;
     font-weight: bold;
     padding: 14px;
@@ -453,7 +488,7 @@ header {
   
   .contact button:hover {
     outline: 1px solid #ffffff33;
-    color: #fff20e;
+    color: #0099ff;
     background: transparent;
   }
   
@@ -494,12 +529,12 @@ header {
   .button button svg {
     width: 18px;
     height: 18px;
-    fill: #fff20e;
+    fill: #0099ff;
     transition: fill 0.3s ease;
   }
   
   .button button a h1 {
-    color: #fff20e;
+    color: #0099ff;
     font-family: "Oxanium", sans-serif;
     font-size: 14px;
     font-weight: 700;
@@ -508,8 +543,8 @@ header {
   }
   
   .button button a:hover {
-    background-color: #fff20e;
-    border-color: #fff20e;
+    background-color: #0099ff;
+    border-color: #0099ff;
   }
   
   .button button a:hover h1 {

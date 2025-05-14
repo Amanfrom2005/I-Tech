@@ -1,6 +1,9 @@
-function UserButton() {
+import { useNavigate } from "react-router-dom";
+
+const UserButton = () => {
+   const navigate = useNavigate();
     return (
-        <button  aria-label="User Profile">
+        <button  onClick={() => navigate("/login")} aria-label="User Profile">
               <svg width="2em" height="2em" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10 
                   10-4.49 10-10S17.51 2 12 2m0 

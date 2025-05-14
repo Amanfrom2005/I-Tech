@@ -35,11 +35,13 @@
   color: #ffffff;
 }
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  /* max-width: 1280px; */
   transition: transform 0.3s ease-in-out;
   transform: translateY(0);
   z-index: 9999;
@@ -56,6 +58,8 @@ header {
 }
 
 .header-container {
+  width: 100%;
+  max-width: 1280px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -111,8 +115,8 @@ nav ul li a i {
 
 nav ul li .home {
   top: 100%;
-  left: -250%;
-  width: 1200px;
+  left: -50%;
+  width: 760px;
   display: none;
 }
 
@@ -120,11 +124,11 @@ nav ul li .home li {
   display: flex;
   align-content: center;
   align-items: stretch;
-  gap: 40px;
+  gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
-  padding: 20px 0px;
+  padding: 0px 20px;
 }
 
 nav ul li .home a {
@@ -134,19 +138,19 @@ nav ul li .home a {
 }
 
 nav ul li .home a img {
-  width: 360px;
+  width: 340px;
   height: 100%;
 }
 
 .hover-title {
   position: absolute;
-  top: 0%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #0099ff;
   color: #000;
   font-weight: bold;
-  padding: 10px;
+  padding: 4px 10px;
   font-size: 12px;
   white-space: nowrap;
   opacity: 0;
@@ -171,7 +175,7 @@ nav ul li ul {
   top: 100%;
   left: 0;
   padding: 26px 0;
-  background: #232323;
+  background: #181818;
   z-index: 1000;
   animation: fadeIn 0.8s ease;
 }
@@ -250,8 +254,9 @@ nav ul li ul li .shop-title:hover {
 
 nav ul li .shop {
   top: 100%;
-  left: -700%;
-  width: 1200px;
+  left: -520px;
+  width: 760px;
+  padding: 26px ;
   display: none;
   justify-content: space-between;
   gap: 20px;
@@ -260,12 +265,17 @@ nav ul li .shop {
 
 .shop-item-list {
   display: flex;
-  padding: 20px;
-  gap: 30px;
+  justify-content: space-between;
+  gap: 20px;
 }
-
-.shop-item-top {
-  width: 300px;
+nav ul li ul li .shop-link{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 0;
+}
+.shop-item {
+  width: 25%;
 }
 
 .shop-item {
@@ -278,8 +288,8 @@ nav ul li .shop {
 }
 
 .shop-item-name a {
-  padding: 10px 0 20px 0;
-  font-size: 20px;
+  padding: 10px 0 10px 0;
+  font-size: 16px;
   font-weight: bolder;
 }
 
@@ -292,121 +302,28 @@ nav ul li .shop {
   font-size: 20px;
 }
 
-.shop-item-top-1 {
-  margin: 0px 20px;
-}
-
-.shop-item-top .shop-link {
-  padding: 10px 0px;
-}
-
 .shop-item-top .Product {
   display: flex;
   flex-direction: column;
 }
 
 .Product {
-  position: relative;
   display: inline-block;
   text-align: center;
-  width: 300px;
-  /* Set a specific width for the product container */
-  overflow: hidden;
-  /* Ensures the absolute positioned elements do not overflow */
+  width: 100%; 
 }
 
 .Product img {
-  width: 300px;
+  width: 187px; 
   transition: transform 0.3s ease;
-}
-
-/* Hidden elements initially */
-.shop-item-heart,
-.shop-item-compare,
-.shop-item-add {
-  position: absolute;
-  right: 0%;
-  transform: translateX(-50%);
-  padding: 10px;
-  font-size: 14px;
-  opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  white-space: nowrap;
-}
-
-/* Positions */
-.shop-item-heart {
-  background-color: #4a4a4a;
-  top: 6%;
-  right: -6%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.shop-item-heart i {
-  color: #000;
-  padding: 0;
-  font-size: 20px;
-  transform: rotate(0deg);
-}
-
-.shop-item-compare {
-  background-color: #4a4a4a;
-  top: 18%;
-  right: -6%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.shop-item-compare i {
-  color: #000;
-  padding: 0;
-  font-size: 20px;
-  transform: rotate(0deg);
-}
-
-.shop-item-add {
-  bottom: 0%;
-  left: 50%;
-  width: 100%;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Oxanium", sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  background: #4a4a4a;
-  color: #fff;
-  cursor: pointer;
-}
-
-.Product:hover .shop-item-add {
-  opacity: 1;
-  transform: translate(-50%, 0);
-}
-
-.shop-item-add:hover {
-  background: #0099ff;
-  color: #000;
-  transition: all 0.5s ease;
-}
-
-/* Show elements when hovering on the product */
-.Product:hover .shop-item-heart,
-.Product:hover .shop-item-compare,
-.Product:hover .shop-item-add {
-  opacity: 1;
-  transform: translate(-50%, -10px);
 }
 
 /* contact */
 .contact ul {
   top: 100%;
-  left: -700%;
-  width: 1200px;
+  left: -620%;
+  width: 760px;
+  padding: 20px;
   justify-content: space-between;
   background-color: #181818;
   color: white;
@@ -421,7 +338,7 @@ nav ul li .shop {
 }
 
 .contact li {
-  height: 400px;
+  height: 460px;
   font-family: 'Oxanium-M', sans-serif;
 }
 
@@ -440,25 +357,27 @@ nav ul li .shop {
 }
 
 .content-address {
-  font-size: 16px;
+  font-size: 12px;
   color: #aaa;
   margin-bottom: 5px;
 }
 
 .content-email {
+  font-size: 14px;
   color: #0099ff;
   font-weight: bold;
 }
 
 .content-number {
+  font-size: 14px;
   color: #0099ff;
   font-weight: bold;
 }
 
 .content-icon i {
-  font-size: 24px;
+  font-size: 20px;
   background: #222;
-  padding: 10px;
+  padding: 6px;
   margin-right: 10px;
   cursor: pointer;
 }
@@ -473,7 +392,7 @@ nav ul li .shop {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 400px;
+  width: 260px;
 }
 
 .content-required {
@@ -521,6 +440,7 @@ textarea:focus::placeholder {
 
 input,
 textarea {
+  font-family: 'Oxanium', sans-serif;
   background: black;
   border: none;
   padding: 12px;
@@ -528,14 +448,18 @@ textarea {
   color: white;
   font-size: 14px;
   width: 100%;
+  min-width: 260px;
+  max-width: 260px;
 }
 
 textarea {
   height: 100px;
+  min-height: 100px;
+  max-height: 148px;
 }
 
 .contact button {
-  width: 40%;
+  width: 60%;
   background: #0099ff;
   color: black;
   font-weight: bold;
@@ -560,7 +484,7 @@ textarea {
 /* button */
 .button {
   display: inline-block;
-  margin: 20px;
+  margin: 0px 40px;
   gap: 20px;
   display: flex;
   align-items: center;

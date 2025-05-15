@@ -5,7 +5,7 @@ import Navbar from './pages/Navbar';
 function App() {
   return (
     <Router>
-      <Navbar></Navbar>
+      <Navbar />
     </Router>
   )
 }

@@ -44,7 +44,7 @@ function Home() {
       clearInterval(intervalRef.current);
       carousel.removeEventListener('transitionend', handleTransitionEnd);
     };
-  }, []);
+  }, );
 
   const autoSlide = () => {
     clearInterval(intervalRef.current);

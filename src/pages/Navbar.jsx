@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 import "../styles/Navbar.css";
 import "../styles/Animation.css";
@@ -446,7 +447,7 @@ const Navbar = () => {
                       width={600}
                       height={450}
                       style={{ border: 0 }}
-                      allowFullScreen=""
+                      allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
                     />
@@ -458,7 +459,9 @@ const Navbar = () => {
         </nav>
         <div className="button">
           <CartButton></CartButton>
-          <UserButton></UserButton>
+          <Link to="/Login">
+              <UserButton />
+          </Link>
         </div>
         {/* mobile nav */}
         <div
@@ -474,7 +477,9 @@ const Navbar = () => {
         >
           <div className="button button-mobile">
             <CartButton></CartButton>
-            <UserButton></UserButton>
+            <Link to="/Login">
+              <UserButton />
+            </Link>
           </div>
           <ul>
             <li>

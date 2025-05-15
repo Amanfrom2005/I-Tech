@@ -7,8 +7,8 @@ const CartButton = ( ) => {
   return (
     <button className="cart-btn" aria-label="View shopping cart" onClick={() => setCount(count + 1)}    >
       <svg
-        width="1.5em"
-        height="1.5em"
+        width="2em"
+        height="2em"
         viewBox="0 0 24 24"
         fill="currentColor"
       >

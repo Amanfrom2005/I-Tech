@@ -4,7 +4,7 @@ const UserButton = () => {
    const navigate = useNavigate();
     return (
         <button  onClick={() => navigate("/login")} aria-label="User Profile">
-              <svg width="2em" height="2em" fill="currentColor" viewBox="0 0 24 24">
+              <svg width="3em" height="3em" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10 
                   10-4.49 10-10S17.51 2 12 2m0 
                   5c1.73 0 3 1.27 3 3s-1.27 3-3 

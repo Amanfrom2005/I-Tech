@@ -1,7 +1,56 @@
+@font-face {
+  font-family: 'cyborg';
+  src: url('../assets/fonts/cyborg.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oxanium';
+  src: url('../assets/fonts/Oxanium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oxanium-L';
+  src: url('../assets/fonts/Oxanium-Light.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oxanium-M';
+  src: url('../assets/fonts/Oxanium-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 #root {
   max-width: 1280px;
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
+  --main-color: #0099ff;
+  --main-bg-color: #181818;
+  --secendary-bg-color: #000000;
+  --secendary-text-color: #fff;
+  --gray-text-color: #aaa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: var(--secendary-text-color);
+  font-family: "Oxanium", sans-serif;
 } 
+body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}

@@ -1,10 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
 import '../styles/Home.css';
 
-import image1 from "../assets/images/h-scroll-img-1.png";
-import image2 from "../assets/images/h-scroll-img-1.png";
-import image3 from "../assets/images/h-scroll-img-1.png";
-import image4 from "../assets/images/h-scroll-img-1.png";
+import image1 from "../assets/images/m-scroll-img/m-img-1.png";
+import image2 from "../assets/images/m-scroll-img/m-img-2.png";
+import image3 from "../assets/images/m-scroll-img/m-img-3.png";
+import image4 from "../assets/images/m-scroll-img/m-img-4.png";
+import image5 from "../assets/images/m-scroll-img/m-img-5.png";
+import image6 from "../assets/images/m-scroll-img/m-img-6.png";
+import image7 from "../assets/images/m-scroll-img/m-img-7.png";
 
 function Home() {
   const wrapperRef = useRef(null);
@@ -19,7 +22,10 @@ function Home() {
     { src: image1, alt: "" },
     { src: image2, alt: "" },
     { src: image3, alt: "" },
-    { src: image4, alt: "" }
+    { src: image4, alt: "" },
+    { src: image5, alt: "" },
+    { src: image6, alt: "" },
+    { src: image7, alt: "" }
   ];
 
   // Initialize carousel with cloned slides
@@ -44,7 +50,7 @@ function Home() {
       clearInterval(intervalRef.current);
       carousel.removeEventListener('transitionend', handleTransitionEnd);
     };
-  }, );
+  }, [] );
 
   const autoSlide = () => {
     clearInterval(intervalRef.current);
@@ -81,14 +87,14 @@ function Home() {
     carousel.style.transform = `translateX(-${index * 100}%)`;
     carousel.addEventListener('transitionend', handleTransitionEnd, { once: true });
   };
-
-  const updateClick = (direction) => {
-    clearInterval(intervalRef.current);
-    const newIndex = currentIndex + (direction === 'next' ? 1 : -1);
-    setCurrentIndex(newIndex);
-    slideToIndex(newIndex);
-    autoSlide();
-  };
+  
+ const updateClick = (direction) => {
+  clearInterval(intervalRef.current);
+  const newIndex = currentIndex + (direction === 'next' ? 1 : -1);
+  setCurrentIndex(newIndex);
+  slideToIndex(newIndex);
+  autoSlide();
+};
 
   const startDrag = (e) => {
     clearInterval(intervalRef.current);

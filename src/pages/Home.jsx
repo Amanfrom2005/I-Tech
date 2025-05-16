@@ -18,7 +18,7 @@ function Home() {
   const [currentTranslate, setCurrentTranslate] = useState(0);
   const intervalRef = useRef(null);
 
-   const images = [
+  const images = [
     { src: image1, alt: "" },
     { src: image2, alt: "" },
     { src: image3, alt: "" },
@@ -28,17 +28,16 @@ function Home() {
     { src: image7, alt: "" }
   ];
 
-  // Initialize carousel with cloned slides
+  // Create cloned images array for seamless loop
+  const clonedImages = [
+    { ...images[images.length - 1] }, // Clone last image
+    ...images,
+    { ...images[0] } // Clone first image
+  ];
+
   useEffect(() => {
     const carousel = carouselRef.current;
     if (!carousel) return;
-
-    // Clone first and last images for seamless looping
-    const firstClone = carousel.children[0].cloneNode(true);
-    const lastClone = carousel.children[images.length - 1].cloneNode(true);
-    
-    carousel.insertBefore(lastClone, carousel.firstChild);
-    carousel.appendChild(firstClone.cloneNode(true));
 
     // Set initial position
     carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
@@ -46,11 +45,8 @@ function Home() {
     // Start auto-slide
     autoSlide();
 
-    return () => {
-      clearInterval(intervalRef.current);
-      carousel.removeEventListener('transitionend', handleTransitionEnd);
-    };
-  }, [] );
+    return () => clearInterval(intervalRef.current);
+  }, []);
 
   const autoSlide = () => {
     clearInterval(intervalRef.current);
@@ -67,15 +63,14 @@ function Home() {
     const carousel = carouselRef.current;
     if (!carousel) return;
 
-    const slides = carousel.children;
-    if (currentIndex >= slides.length - 1) {
+    if (currentIndex >= clonedImages.length - 1) {
       carousel.style.transition = 'none';
       carousel.style.transform = `translateX(-${1 * 100}%)`;
       setCurrentIndex(1);
     } else if (currentIndex <= 0) {
       carousel.style.transition = 'none';
-      carousel.style.transform = `translateX(-${slides.length - 2 * 100}%)`;
-      setCurrentIndex(slides.length - 2);
+      carousel.style.transform = `translateX(-${(clonedImages.length - 2) * 100}%)`;
+      setCurrentIndex(clonedImages.length - 2);
     }
   };
 
@@ -87,14 +82,16 @@ function Home() {
     carousel.style.transform = `translateX(-${index * 100}%)`;
     carousel.addEventListener('transitionend', handleTransitionEnd, { once: true });
   };
-  
- const updateClick = (direction) => {
-  clearInterval(intervalRef.current);
-  const newIndex = currentIndex + (direction === 'next' ? 1 : -1);
-  setCurrentIndex(newIndex);
-  slideToIndex(newIndex);
-  autoSlide();
-};
+
+  const updateClick = (direction) => {
+    clearInterval(intervalRef.current);
+    setCurrentIndex(prevIndex => {
+      const newIndex = prevIndex + (direction === 'next' ? 1 : -1);
+      slideToIndex(newIndex);
+      return newIndex;
+    });
+    autoSlide();
+  };
 
   const startDrag = (e) => {
     clearInterval(intervalRef.current);
@@ -117,13 +114,17 @@ function Home() {
 
     const threshold = wrapperRef.current?.offsetWidth / 10 || 0;
     if (currentTranslate < -threshold) {
-      const newIndex = currentIndex + 1;
-      setCurrentIndex(newIndex);
-      slideToIndex(newIndex);
+      setCurrentIndex(prev => {
+        const newIndex = prev + 1;
+        slideToIndex(newIndex);
+        return newIndex;
+      });
     } else if (currentTranslate > threshold) {
-      const newIndex = currentIndex - 1;
-      setCurrentIndex(newIndex);
-      slideToIndex(newIndex);
+      setCurrentIndex(prev => {
+        const newIndex = prev - 1;
+        slideToIndex(newIndex);
+        return newIndex;
+      });
     } else {
       carouselRef.current.style.transition = 'transform 0.5s ease-in-out';
       carouselRef.current.style.transform = `translateX(-${currentIndex * 100}%)`;
@@ -164,8 +165,12 @@ function Home() {
                   ref={carouselRef}
                   onMouseDown={startDrag}
                   onTouchStart={startDrag}
+                  onMouseMove={duringDrag}
+                  onTouchMove={duringDrag}
+                  onMouseUp={endDrag}
+                  onTouchEnd={endDrag}
                 >
-                  {images.map((img, index) => (
+                  {clonedImages.map((img, index) => (
                     <img key={index} src={img.src} alt={img.alt} />
                   ))}
                 </div>

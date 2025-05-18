@@ -1,0 +1,22 @@
+.c-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+}
+
+.c-dot {
+  background-color: #fff;
+  width: 4px;
+  height: 4px;
+}
+
+.c-outline,
+.c-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 99999;
+  pointer-events: none;
+}

@@ -25,6 +25,7 @@ const Navbar = () => {
 
   const menuRef = useRef(null); // Ref for the mobile menu
   const iconRef = useRef(null); // Ref for the menu icon
+  const headerRef = useRef(null); // Add this ref
 
   const handleToggleMenu = (e) => {
     e.stopPropagation();
@@ -64,8 +65,41 @@ const Navbar = () => {
       document.removeEventListener("click", handleClickOutside);
     };
   },);
+
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+
+    const handleScroll = () => {
+      const navbar = headerRef.current;
+      if (!navbar) return;
+
+      if (window.scrollY > lastScrollY) {
+        // Scrolling Down - Hide Navbar
+        navbar.classList.add("hidden");
+        navbar.classList.remove("scrolled-up");
+      } else {
+        // Scrolling Up - Show Navbar with Color
+        navbar.classList.remove("hidden");
+        navbar.classList.add("scrolled-up");
+      }
+
+      // If fully scrolled to the top, remove the color
+      if (window.scrollY === 0) {
+        navbar.classList.add("remove-color");
+        setTimeout(() => {
+          navbar.classList.remove("scrolled-up", "remove-color");
+        }, 300);
+      }
+
+      lastScrollY = window.scrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <header id="header">
+    <header id="header" ref={headerRef}>
       <div className="header-container">
         <div className="logo">
           <a href="./index.html">
@@ -457,7 +491,7 @@ const Navbar = () => {
             </li>
           </ul>
         </nav>
-        <div className="button">
+        <div className="button nav-button">
           <CartButton></CartButton>
           <Link to="/Login">
               <UserButton />

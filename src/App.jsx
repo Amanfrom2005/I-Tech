@@ -4,10 +4,12 @@ import Navbar from './pages/Navbar';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Signin from './pages/Signin';  
+import Cursour from './components/Cursour';
 
 function App() {
   return (
     <Router>
+      <Cursour></Cursour>
       <Routes>
         {/* Routes without Navbar */}
         <Route path="/login" element={<Login />} />

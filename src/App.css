@@ -31,7 +31,7 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-  --main-color: #0099ff;
+  --main-color: rgb(0, 153, 255);
   --main-bg-color: #181818;
   --secendary-bg-color: #000000;
   --secendary-text-color: #fff;
@@ -53,4 +53,5 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #000;
+  cursor: none;
 }

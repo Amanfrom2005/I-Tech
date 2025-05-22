@@ -29,11 +29,11 @@
     line-height: 1;
     top: 100%;
     transform: translate(-30px, 5px);
-    background-color: var(--main-bg-color);
+    background-color: var(--secendary);
 }
 
 .wgl-svg-icon svg {
-    fill: var(--main-color);
+    fill: var(--primary);
 }
 
 #scroll_up:active {

@@ -71,10 +71,3 @@ This project is open-source and free to use.
 ## 🙌 Contribution
 
 Feel free to fork this repo, create a branch, make changes, and submit a pull request. Let's build something amazing together!
-
-```
-
----
-
-Would you like me to generate this as a downloadable file or assist with hosting it on GitHub?
-```

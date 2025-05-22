@@ -27,7 +27,7 @@ function ScrollUpButton() {
         position: "fixed",
         bottom: "20px",
         right: "20px",
-        background: "var(--secendary-bg-color)",
+        background: "var(--black)",
         color: "#fff",
         border: "none",
         borderRadius: "50%",

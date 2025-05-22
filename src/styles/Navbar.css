@@ -16,7 +16,7 @@ header {
   transition: transform 0.3s ease-in-out;
 }
 .scrolled-up {
-  background-color:var(--main-bg-color);
+  background-color:var(--secendary);
   transition: background-color 0.3s ease-in-out;
 }
 .header-container {
@@ -39,7 +39,7 @@ header {
   font-family: 'cyborg';
   font-weight: 100;
   font-size: 20px;
-  color: var(--main-color);
+  color: var(--primary);
 }
 
 /* nav */
@@ -62,12 +62,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: var(--main-color);
+  color: var(--primary);
   transition: all 0.3s ease;
 }
 
 nav ul li a:hover i {
-  color: var(--main-color);
+  color: var(--primary);
   transition: all 0.3s ease;
 }
 
@@ -109,8 +109,8 @@ nav ul li .home a img {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: var(--main-color);
-  color: var(--secendary-bg-color);
+  background: var(--primary);
+  color: var(--black);
   font-weight: bold;
   padding: 4px 10px;
   font-size: 12px;
@@ -121,7 +121,7 @@ nav ul li .home a img {
 }
 
 .hover-title span {
-  color: var(--secendary-bg-color);
+  color: var(--black);
   font-size: 18px;
 }
 
@@ -137,7 +137,7 @@ nav ul li ul {
   top: 100%;
   left: 0;
   padding: 26px 0;
-  background: var(--main-bg-color);
+  background: var(--secendary);
   z-index: 1000;
   animation: fadeIn 0.8s ease;
 }
@@ -163,17 +163,17 @@ nav ul li ul li a i {
 }
 
 nav ul li ul li a:hover {
-  color: var(--main-color);
+  color: var(--primary);
   transition: all 0.3s ease;
 }
 
 nav ul li ul li a:hover i {
-  color: var(--main-color);
+  color: var(--primary);
   transition: all 0.3s ease;
 }
 
 nav ul li ul li a h1 {
-  color: var(--main-color);
+  color: var(--primary);
   font-family: "Oxanium", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -191,7 +191,7 @@ nav ul li ul li ul {
   top: 0%;
   left: 102%;
   padding: 26px 0;
-  background: var(--main-bg-color);
+  background: var(--secendary);
   z-index: 1000;
   animation: fadeIn 0.8s ease;
 }
@@ -211,7 +211,7 @@ nav ul li ul li .shop-title {
 }
 
 nav ul li ul li .shop-title:hover {
-  color: var(--secendary-text-color);
+  color: var(--white);
 }
 
 nav ul li .shop {
@@ -258,11 +258,11 @@ nav ul li ul li .shop-link {
 }
 
 .shop-item-name i {
-  color: var(--main-color);
+  color: var(--primary);
 }
 
 .shop-item-name .shop-item-price {
-  color: var(--main-color);
+  color: var(--primary);
   font-size: 20px;
 }
 
@@ -289,8 +289,8 @@ nav ul li ul li .shop-link {
   width: 760px;
   padding: 20px;
   justify-content: space-between;
-  background-color: var(--main-bg-color);
-  color: var(--secendary-text-color);
+  background-color: var(--secendary);
+  color: var(--white);
   padding: 40px;
 }
 
@@ -316,40 +316,49 @@ nav ul li ul li .shop-link {
 .content-title {
   font-size: 20px;
   font-weight: bold;
-  color: var(--secendary-text-color);
+  color: var(--white);
   margin-bottom: 10px;
 }
 
 .content-address {
   font-size: 12px;
-  color: var(--gray-text-color);
+  color: var(--gray);
   margin-bottom: 5px;
 }
 
 .content-email {
   font-size: 14px;
-  color: var(--main-color);
+  color: var(--primary);
   font-weight: bold;
 }
 
 .content-number {
   font-size: 14px;
-  color: var(--main-color);
+  color: var(--primary);
   font-weight: bold;
 }
-
-.content-icon i {
+.content-icon{
+  display: flex;
+  gap: 40px;
+}
+.content-icon a {
+  cursor: pointer;
+  width: 0;
+  margin: 0;
+  padding: 0;
+}
+.content-icon i{
   font-size: 20px;
-  background: var(--secendary-bg-color);
+  background: var(--black);
   padding: 6px;
   margin-right: 10px;
-  cursor: pointer;
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid var(--primary);
 }
-
 .content-icon i:hover {
-  background: var(--main-color);
-  color: var(--secendary-bg-color);
-  transition: all 0.3s ease;
+  background: var(--primary);
+  color: var(--black);
 }
 
 .contact-2 {
@@ -371,7 +380,7 @@ form {
 }
 
 input::placeholder {
-  color: var(--secendary-text-color);
+  color: var(--white);
 }
 
 input:focus {
@@ -385,7 +394,7 @@ input:focus::placeholder {
 }
 
 textarea::placeholder {
-  color: var(--secendary-text-color);
+  color: var(--white);
 }
 
 textarea:focus {
@@ -405,11 +414,11 @@ textarea:focus::placeholder {
 input,
 textarea {
   font-family: 'Oxanium', sans-serif;
-  background: var(--secendary-bg-color);
+  background: var(--black);
   border: none;
   padding: 12px;
   margin-bottom: 10px;
-  color: var(--secendary-text-color);
+  color: var(--white);
   font-size: 14px;
   width: 100%;
   min-width: 260px;
@@ -424,19 +433,19 @@ textarea {
 
 .contact button {
   width: 60%;
-  background: var(--main-color);
-  color: var(--secendary-bg-color);
+  background: var(--primary);
+  color: var(--black);
   font-weight: bold;
   padding: 14px;
   font-size: 16px;
-  border: none;
+  border: 1px solid var(--primary);
   cursor: pointer;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in-out;
 }
 
 .contact button:hover {
-  outline: 1px solid var(--secendary-text-color)33;
-  color: var(--main-color);
+  outline: 1px solid var(--white)33;
+  color: var(--primary);
   background: transparent;
 }
 
@@ -463,12 +472,12 @@ textarea {
 }
 
 .button button svg {
-  fill: var(--secendary-text-color);
+  fill: var(--white);
   transition: all 0.3s ease-in-out;
 }
 
 .button button:hover svg {
-  fill: var(--main-color);
+  fill: var(--primary);
 }
 
 /* mobile nav */

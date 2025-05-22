@@ -453,9 +453,9 @@ const Navbar = () => {
                     <h2 className="content-number">+91 80012 34567</h2>
                     <h1 className="content-title">IN Socials</h1>
                     <div className="content-icon">
-                      <i className="bx bxl-twitch" />
-                      <i className="bx bxl-facebook" />
-                      <i className="bx bxl-instagram" />
+                      <a href="https://www.youtube.com/channel/UCixIFBnkoeAhtwd6mMeeWZg"><i className="bx bxl-youtube" /></a>
+                      <a href="https://www.facebook.com/people/ITechEducationOfficial/100088072031334/"><i className="bx bxl-facebook" /></a>
+                      <a href="https://www.instagram.com/itecheducation.official/"><i className="bx bxl-instagram" /></a>
                     </div>
                   </li>
                   <li className="contact-2">

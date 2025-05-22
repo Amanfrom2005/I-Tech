@@ -38,7 +38,7 @@
     font-size: 30px;
     left: 50%;
     top: 50%;
-    color: var(--secendary-text-color);
+    color: var(--white);
     transform: translate(-50%, -50%);
     pointer-events: none;
     transition: all 0.3s ease;
@@ -49,13 +49,13 @@
   }
 
   .icon.active {
-    background-color: var(--main-color);
+    background-color: var(--primary);
   }
 
   .icon.active i.close {
     opacity: 1;
     transform: translate(-50%, -50%) rotate(180deg);
-    color: var(--secendary-bg-color);
+    color: var(--black);
   }
 
   .icon.active i.open {
@@ -70,7 +70,7 @@
     left: -80%;
     width: 80%;
     height: 100vh;
-    background: var(--secendary-bg-color);
+    background: var(--black);
     transition: left 0.3s ease-in-out;
     overflow-y: auto;
     padding: 30px 12px 12px 12px;
@@ -102,7 +102,7 @@
     align-items: center;
     padding: 8px 15px;
     text-decoration: none;
-    color: var(--secendary-text-color);
+    color: var(--white);
     font-size: 16px;
     font-weight: 500;
     transition: background 0.3s;
@@ -163,5 +163,22 @@
 }
 .detail-2 .wrapper{
   height: 400px !important;
+}
+
+/* footer */
+footer{
+  background: chartreuse;
+}
+.f-c-item{
+  width: 100% !important;
+}
+.f-c-item2{
+  padding: 10px 20px;
+}
+.f-c-item3{
+  padding: 10px 20px;
+}
+.f-c-item4{
+  padding: 10px 20px;
 }
 }

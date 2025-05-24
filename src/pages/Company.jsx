@@ -14,7 +14,7 @@ import affiliation1 from "../assets/images/affiliation-logo/ISO-logo.webp";
 import affiliation2 from "../assets/images/affiliation-logo/msme.webp";
 import affiliation3 from "../assets/images/affiliation-logo/NIELIT_Logo.webp";
 
-import PagesTitle from "./PagesTitle";
+import PagesTitle from "../components/PagesTitle";
 
 function InfiniteLogoSlider() {
   return (

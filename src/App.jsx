@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './pages/Navbar';
 import Home from './pages/Home';
 import Login from './pages/Login';
-import Signin from './pages/Signin';  
+import Signup from './pages/Signup';  
 import Cursour from './components/Cursour';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         {/* Routes without Navbar */}
         <Route path="/login" element={<Login />} />
-        <Route path="/signin" element={<Signin />} />
+        <Route path="/signup" element={<Signup />} />
 
         {/* Routes with Navbar */}
         <Route

@@ -51,6 +51,9 @@
   color: var(--white);
   font-family: "Oxanium", sans-serif;
 } 
+html{
+  scroll-behavior: smooth;
+}
 body {
   width: 100%;
   display: flex;
@@ -58,4 +61,14 @@ body {
   justify-content: center;
   background-color: #000;
   cursor: none;
+}
+.clip-path{
+  clip-path: polygon(
+  14px 0,
+  100% 0,
+  100% calc(100% - 14px),
+  calc(100% - 14px) 100%,
+  0 100%,
+  0 14px
+);
 }

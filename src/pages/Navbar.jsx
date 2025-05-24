@@ -9,12 +9,12 @@ import "../styles/1024width.css";
 import pythonBook from "../assets/images/python-book.webp";
 import javaBook from "../assets/images/java-book.webp";
 import javascriptBook from "../assets/images/javascript-book.webp";
-import homeImage1 from "../assets/images/mm-hp1.webp";
-import homeImage2 from "../assets/images/mm-hp1.webp";
-import homeImage3 from "../assets/images/mm-hp1.webp";
-import homeImage4 from "../assets/images/mm-hp1.webp";
-import homeImage5 from "../assets/images/mm-hp1.webp";
-import homeImage6 from "../assets/images/mm-hp1.webp";
+import homeImage1 from "../assets/images/home-nav-img/img1.png";
+import homeImage2 from "../assets/images/home-nav-img/img2.png";
+import homeImage3 from "../assets/images/home-nav-img/img3.png";
+import homeImage4 from "../assets/images/home-nav-img/img4.png";
+import homeImage5 from "../assets/images/home-nav-img/img5.png";
+import homeImage6 from "../assets/images/home-nav-img/img6.png";
 
 import CartButton from "../components/CartButton";
 import UserButton from "../components/UserButton";
@@ -109,69 +109,69 @@ const Navbar = () => {
         <nav className="pc-nav">
           <ul>
             <li>
-              <a href="#home">
+              <Link to="./">
                 HOME <i className="bx bx-down-arrow" />
-              </a>
+              </Link>
               <ul className="home">
                 <li>
-                  <a href="#home-1.html">
+                  <a href="#home1">
                     <img
                       className="home-img"
                       src={homeImage1}
                       alt="Home Image 1"
                     />
                     <div className="hover-title">
-                      HOME 1 <br /> <span>PC GAME</span>
+                      HOME 1 <br /> <span>Hero Section</span>
                     </div>
                   </a>
-                  <a href="#home-2.html">
+                  <a href="#home2">
                     <img
                       className="home-img"
                       src={homeImage2}
                       alt="Home Image 2"
                     />
                     <div className="hover-title">
-                      HOME 2 <br /> <span>ESPORT TEAM</span>
+                      HOME 2 <br /> <span>Companys & Affiliation</span>
                     </div>
                   </a>
-                  <a href="#home-3.html">
+                  <a href="#home3">
                     <img
                       className="home-img"
                       src={homeImage3}
                       alt="Home Image 3"
                     />
                     <div className="hover-title">
-                      HOME 3 <br /> <span>MOBILE GAME</span>
+                      HOME 3 <br /> <span>Teachers</span>
                     </div>
                   </a>
-                  <a href="#home-4.html">
+                  <a href="#home4">
                     <img
                       className="home-img"
                       src={homeImage4}
                       alt="Home Image 4"
                     />
                     <div className="hover-title">
-                      HOME 4 <br /> <span>ESPORT TEAM</span>
+                      HOME 4 <br /> <span>Testimonials</span>
                     </div>
                   </a>
-                  <a href="#home-5.html">
+                  <a href="#home5">
                     <img
                       className="home-img"
                       src={homeImage5}
                       alt="Home Image 5"
                     />
                     <div className="hover-title">
-                      HOME 5 <br /> <span>ESPORTS SHOP</span>
+                      HOME 5 <br /> <span>Contact Section</span>
                     </div>
                   </a>
-                  <a href="#home-6.html">
+                  <a href="#home6">
                     <img
                       className="home-img"
                       src={homeImage6}
                       alt="Home Image 6"
                     />
                     <div className="hover-title">
-                      HOME 6 <br /> <span>GAMERS FORUM</span>
+                      HOME 6 <br /> <span>Footer Section</span>
                     </div>
                   </a>
                 </li>
@@ -227,124 +227,11 @@ const Navbar = () => {
               <a href="#blog">
                 BLOG <i className="bx bx-down-arrow" />
               </a>
-              <ul>
-                <li>
-                  <a href="#blog-list">Blog List</a>
-                </li>
-                <li>
-                  <a href="#blog-grid">Blog Grid</a>
-                </li>
-                <li>
-                  <a className="color-black" href="#blog-masonry">
-                    Blog Masonry <i className="bx bx-down-arrow" />
-                  </a>
-                  <ul>
-                    <li>
-                      <a href="#blog-masonry-2-columns">2 columns</a>
-                    </li>
-                    <li>
-                      <a href="#blog-masonry-2-col-+-sidebar">
-                        2 col + sidebar
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#blog-masonry-3-columns">3 columns</a>
-                    </li>
-                    <li>
-                      <a href="#blog-masonry-4-col-wide">4 col wide</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a className="color-black" href="#blog-singles">
-                    Blog Singles <i className="bx bx-down-arrow" />
-                  </a>
-                  <ul>
-                    <li>
-                      <a href="#blog-singles-standard">Standard</a>
-                    </li>
-                    <li>
-                      <a href="#blog-singles-video">Video</a>
-                    </li>
-                    <li>
-                      <a href="#blog-singles-quote">Quote</a>
-                    </li>
-                    <li>
-                      <a href="#blog-singles-gallery">Gallery</a>
-                    </li>
-                    <li>
-                      <a href="#blog-singles-link">Link</a>
-                    </li>
-                    <li>
-                      <a href="#blog-singles-audio">Audio</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a className="color-black" href="#single-layouts">
-                    Single Layouts <i className="bx bx-down-arrow" />
-                  </a>
-                  <ul>
-                    <li>
-                      <a href="#single-layouts-overlay-image">Overlay Image</a>
-                    </li>
-                    <li>
-                      <a href="#single-layouts-title-first">Title First</a>
-                    </li>
-                    <li>
-                      <a href="#single-layouts-image-first">Image First</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
             </li>
             <li>
               <a href="#portfolio">
                 PORTFOLIO <i className="bx bx-down-arrow" />
               </a>
-              <ul>
-                <li>
-                  <a className="color-black" href="#grid">
-                    Grid <i className="bx bx-down-arrow" />
-                  </a>
-                  <ul>
-                    <li>
-                      <a href="grid-2-columns">2 columns</a>
-                    </li>
-                    <li>
-                      <a href="grid-3-columns">3 columns</a>
-                    </li>
-                    <li>
-                      <a href="grid-4-col-wide">4 col wide</a>
-                    </li>
-                    <li>
-                      <a href="grid-5-col-wide">5 col wide</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a className="color-black" href="#mansonry">
-                    Masonry <i className="bx bx-down-arrow" />
-                  </a>
-                  <ul>
-                    <li>
-                      <a href="#mansonry-grid-1">Grid 1</a>
-                    </li>
-                    <li>
-                      <a href="#mansonry-grid-2">Grid 2</a>
-                    </li>
-                    <li>
-                      <a href="#mansonry-grid-3">Grid 3</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#gallery">Gallery</a>
-                </li>
-                <li>
-                  <a href="#single">Single</a>
-                </li>
-              </ul>
             </li>
             <li>
               <a href="#shop">
@@ -464,11 +351,11 @@ const Navbar = () => {
                       Enter your details below to get in touch with us
                     </h4>
                     <form action="">
-                      <input type="text" placeholder="Your Name" />
-                      <input type="email" placeholder="Your Email" />
+                      <input type="text" id="name" placeholder="Your Name" />
+                      <input type="email" id="email" placeholder="Your Email" />
                       <textarea
                         name="message"
-                        id=""
+                        id="message"
                         placeholder="Your Message"
                         defaultValue={""}
                       />

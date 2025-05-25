@@ -102,9 +102,9 @@ const Navbar = () => {
     <header id="header" ref={headerRef}>
       <div className="header-container">
         <div className="logo">
-          <a href="./index.html">
+          <Link to="./">
             <h2>I-TECH</h2>
-          </a>
+          </Link>
         </div>
         <nav className="pc-nav">
           <ul>
@@ -234,9 +234,9 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#shop">
+              <Link to="/store">
                 SHOP <i className="bx bx-down-arrow" />
-              </a>
+              </Link>
               <ul className="shop">
                 <li className="shop-item-list">
                   <div className="shop-item-top shop-item-top-1">

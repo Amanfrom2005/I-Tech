@@ -62,9 +62,9 @@ export default function ContactPage() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <div className="bg-white m-auto lg:px-10 py-4 px-2 cursor-default">
-          <h2 className="text-secondary text-2xl font-bold mb-8">Get In Touch</h2>
-          <form onSubmit={handleSubmit} className="space-y-6 ">
+        <div className="bg-white lg:px-10 lg:py-4 cursor-default py-4">
+          <h2 className="text-secondary text-2xl font-bold mb-8 px-4">Get In Touch</h2>
+          <form onSubmit={handleSubmit} className="space-y-6 items-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <input

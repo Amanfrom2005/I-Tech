@@ -24,7 +24,6 @@ export default function TechTraining() {
                     <img
                       src={instructor.image || "/placeholder.svg"}
                       alt={instructor.name}
-                      fill
                       className="rounded-full object-cover"
                     />
                   </div>

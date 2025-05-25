@@ -79,6 +79,7 @@ export default function Testimonials() {
   const sectionRef = useRef(null)
 
   useEffect(() => {
+    const node = sectionRef.current
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -90,13 +91,13 @@ export default function Testimonials() {
       { threshold: 0.1 },
     )
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current)
+    if (node) {
+      observer.observe(node)
     }
 
     return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current)
+      if (node) {
+        observer.unobserve(node)
       }
     }
   }, [])

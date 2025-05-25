@@ -156,7 +156,7 @@
   font-size: 16px !important;
 }
 .main-1-detail .m-detail {
-  width: 100%;
+  width: 100% !important;
 }
 .detail-2{
   margin: 40px 0;

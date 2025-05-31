@@ -88,7 +88,7 @@ export default function Testimonials() {
           }
         })
       },
-      { threshold: 0.1 },
+      { threshold: 0.3 },
     )
 
     if (node) {

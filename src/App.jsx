@@ -1,55 +1,49 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Store from "./page.jsx";
-import Navbar from "./pages/Navbar";
-import Home from "./pages/Home";
+import Cursour from "./components/Cursour";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import Cursour from "./components/Cursour";
-import CartPage from "./components/CartPage.jsx";
+import LayoutWithNavbar from "./pages/LayoutWithNavbar";
+import Home from "./pages/Home";
+import ShopPage from "./pages/Shop";
+import ProductDetailPage from "./pages/ProductDetailPage";
+import CartPage from "./pages/CartPage";
+import CheckoutPage from "./pages/CheckoutPage";
+import WishlistPage from "./pages/WishlistPage";
+import OrdersPage from "./pages/OrdersPage";
+import HelpPage from "./pages/HelpPage";
+import { CartProvider } from "./context/CartContext";
+import { WishlistProvider } from "./context/WishlistContext";
+import { OrderProvider } from "./context/OrderContext";
 
 function App() {
   return (
-    <Router>
-      <Cursour></Cursour>
-      <Routes>
-        {/* Routes without Navbar */}
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
+    <CartProvider>
+      <WishlistProvider>
+        <OrderProvider>
+          <Router>
+            <Cursour />
+            <Routes>
+              {/* Routes without Navbar */}
+              <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<Signup />} />
 
-        {/* Routes with Navbar */}
-        <Route
-          path="/"
-          element={
-            <>
-              <Navbar />
-              <Home />
-            </>
-          }
-        />
-
-        {/* Store route */}
-        <Route
-          path="/store"
-          element={
-            <>
-              <Navbar />
-              <Store />
-            </>
-          }
-        />
-        {/* cart route */}
-        <Route
-          path="/cart"
-          element={
-            <>
-              <Navbar />
-              <CartPage />
-            </>
-          }
-        />
-      </Routes>
-    </Router>
+              {/* Routes with Navbar */}
+              <Route element={<LayoutWithNavbar />}>
+                <Route path="/" element={<Home />} />
+                <Route path="/store" element={<ShopPage />} />
+                <Route path="/product/:id" element={<ProductDetailPage />} />
+                <Route path="/cart" element={<CartPage />} />
+                <Route path="/checkout" element={<CheckoutPage />} />
+                <Route path="/wishlist" element={<WishlistPage />} />
+                <Route path="/orders" element={<OrdersPage />} />
+                <Route path="/help" element={<HelpPage />} />
+              </Route>
+            </Routes>
+          </Router>
+        </OrderProvider>
+      </WishlistProvider>
+    </CartProvider>
   );
 }
 

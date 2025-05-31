@@ -42,7 +42,7 @@ footer {
   object-fit: cover;
 }
 .f-c-icon {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   margin-left: 14px;
   gap: 20px;

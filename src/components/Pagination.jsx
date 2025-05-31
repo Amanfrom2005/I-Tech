@@ -1,87 +1,115 @@
-export default function Pagination({ currentPageNum, setCurrentPageNum, totalPages }) {
-  // Function to generate page numbers with ellipsis
-  const getPageNumbers = () => {
-    const maxVisiblePages = 5; // Show maximum 5 page numbers (can be adjusted)
-    const pages = [];
+import React from 'react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+
+const Pagination = ({ currentPage, totalPages, onPageChange }) => {
+  // Create page buttons
+  const getPageButtons = () => {
+    const buttons = [];
+    const maxButtonsToShow = 5;
     
     // Always show first page
-    pages.push(1);
+    buttons.push(
+      <button
+        key={1}
+        onClick={() => onPageChange(1)}
+        className={`px-3 py-1 rounded-md ${
+          currentPage === 1 
+            ? 'bg-slate-800 text-white' 
+            : 'text-gray-700 hover:bg-gray-100'
+        }`}
+      >
+        1
+      </button>
+    );
+
+    // Calculate start and end pages to display
+    let startPage = Math.max(2, currentPage - Math.floor(maxButtonsToShow / 2));
+    let endPage = Math.min(totalPages - 1, startPage + maxButtonsToShow - 3);
     
-    // Calculate start and end pages
-    let startPage = Math.max(2, currentPageNum - 2);
-    let endPage = Math.min(totalPages - 1, currentPageNum + 2);
-    
-    // Adjust if we're near the start
-    if (currentPageNum <= 3) {
-      endPage = Math.min(5, totalPages - 1);
+    if (endPage - startPage < maxButtonsToShow - 3) {
+      startPage = Math.max(2, endPage - (maxButtonsToShow - 3) + 1);
     }
     
-    // Adjust if we're near the end
-    if (currentPageNum >= totalPages - 2) {
-      startPage = Math.max(totalPages - 4, 2);
-    }
-    
-    // Add left ellipsis if needed
+    // Show ellipsis if needed before middle buttons
     if (startPage > 2) {
-      pages.push('...');
+      buttons.push(
+        <span key="ellipsis-1" className="px-2 py-1">
+          ...
+        </span>
+      );
     }
     
-    // Add middle pages
+    // Middle buttons
     for (let i = startPage; i <= endPage; i++) {
-      pages.push(i);
+      buttons.push(
+        <button
+          key={i}
+          onClick={() => onPageChange(i)}
+          className={`px-3 py-1 rounded-md ${
+            currentPage === i 
+              ? 'bg-slate-800 text-white' 
+              : 'text-gray-700 hover:bg-gray-100'
+          }`}
+        >
+          {i}
+        </button>
+      );
     }
     
-    // Add right ellipsis if needed
+    // Show ellipsis if needed after middle buttons
     if (endPage < totalPages - 1) {
-      pages.push('...');
+      buttons.push(
+        <span key="ellipsis-2" className="px-2 py-1">
+          ...
+        </span>
+      );
     }
     
-    // Always show last page if there's more than 1 page
+    // Always show last page if there is more than one page
     if (totalPages > 1) {
-      pages.push(totalPages);
+      buttons.push(
+        <button
+          key={totalPages}
+          onClick={() => onPageChange(totalPages)}
+          className={`px-3 py-1 rounded-md ${
+            currentPage === totalPages 
+              ? 'bg-slate-800 text-white' 
+              : 'text-gray-700 hover:bg-gray-100'
+          }`}
+        >
+          {totalPages}
+        </button>
+      );
     }
     
-    return pages;
+    return buttons;
   };
 
-  const pageNumbers = getPageNumbers();
+  if (totalPages <= 1) return null;
 
   return (
-    <div className="flex justify-center items-center gap-2 mt-8 flex-wrap">
+    <div className="flex items-center justify-center mt-6 space-x-1">
       <button
-        onClick={() => setCurrentPageNum((prev) => Math.max(prev - 1, 1))}
-        disabled={currentPageNum === 1}
-        className="px-4 py-2 bg-gray-700 text-white rounded-lg disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-600 transition-colors duration-200"
+        onClick={() => onPageChange(currentPage - 1)}
+        disabled={currentPage === 1}
+        className="p-2 rounded-md text-gray-600 hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed"
       >
-        Previous
+        <ChevronLeft size={16} />
       </button>
-
-      <div className="flex gap-2">
-        {pageNumbers.map((page, index) => (
-          <button
-            key={index}
-            onClick={() => typeof page === 'number' ? setCurrentPageNum(page) : null}
-            disabled={page === '...'}
-            className={`px-4 py-2 rounded-lg transition-colors duration-200 min-w-[40px] ${
-              currentPageNum === page 
-                ? "bg-blue-500 text-white" 
-                : typeof page === 'number' 
-                  ? "bg-gray-700 text-white hover:bg-gray-600" 
-                  : "bg-transparent text-gray-400 cursor-default"
-            }`}
-          >
-            {page}
-          </button>
-        ))}
+      
+      <div className="flex items-center space-x-1">
+        {getPageButtons()}
       </div>
-
+      
       <button
-        onClick={() => setCurrentPageNum((prev) => Math.min(prev + 1, totalPages))}
-        disabled={currentPageNum === totalPages}
-        className="px-4 py-2 bg-gray-700 text-white rounded-lg disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-600 transition-colors duration-200"
+        onClick={() => onPageChange(currentPage + 1)}
+        disabled={currentPage === totalPages}
+        className="p-2 rounded-md text-gray-600 hover:bg-gray-100 disabled:opacity-50 disabled:cursor-not-allowed"
       >
-        Next
+        <ChevronRight size={16} />
       </button>
     </div>
-  )
-}
+  );
+};
+
+export default Pagination;

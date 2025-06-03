@@ -27,7 +27,7 @@ const ProductCard = ({ id, name, price, discountPrice, image, category, rating }
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <Link to={`/product/${id}`} className="block">
+      <Link to={`/store/product/${id}`} className="block">
         <div className="relative pt-[100%] overflow-hidden">
           <img 
             src={image} 

@@ -33,7 +33,7 @@ const OrdersPage = () => {
           <h2 className="text-xl font-semibold text-gray-900 mb-2">No orders yet</h2>
           <p className="text-gray-600 mb-6">Start shopping to see your orders here!</p>
           <Link 
-            to="/" 
+            to="/store" 
             className="inline-flex items-center px-6 py-3 bg-slate-800 text-white rounded-md hover:bg-slate-700 transition duration-200"
           >
             Start Shopping
@@ -94,7 +94,7 @@ const OrdersPage = () => {
                           </div>
                           <div className="flex-shrink-0">
                             <Link
-                              to={`/product/${item.id}`}
+                              to={`/store/product/${item.id}`}
                               className="text-sm font-medium text-slate-800 hover:text-slate-600"
                             >
                               View Product

@@ -64,7 +64,7 @@ const Navbar = () => {
     return () => {
       document.removeEventListener("click", handleClickOutside);
     };
-  },);
+  });
 
   useEffect(() => {
     let lastScrollY = window.scrollY;
@@ -340,9 +340,15 @@ const Navbar = () => {
                     <h2 className="content-number">+91 80012 34567</h2>
                     <h1 className="content-title">IN Socials</h1>
                     <div className="content-icon">
-                      <a href="https://www.youtube.com/channel/UCixIFBnkoeAhtwd6mMeeWZg"><i className="bx bxl-youtube" /></a>
-                      <a href="https://www.facebook.com/people/ITechEducationOfficial/100088072031334/"><i className="bx bxl-facebook" /></a>
-                      <a href="https://www.instagram.com/itecheducation.official/"><i className="bx bxl-instagram" /></a>
+                      <a href="https://www.youtube.com/channel/UCixIFBnkoeAhtwd6mMeeWZg">
+                        <i className="bx bxl-youtube" />
+                      </a>
+                      <a href="https://www.facebook.com/people/ITechEducationOfficial/100088072031334/">
+                        <i className="bx bxl-facebook" />
+                      </a>
+                      <a href="https://www.instagram.com/itecheducation.official/">
+                        <i className="bx bxl-instagram" />
+                      </a>
                     </div>
                   </li>
                   <li className="contact-2">
@@ -379,9 +385,11 @@ const Navbar = () => {
           </ul>
         </nav>
         <div className="button nav-button">
-          <CartButton></CartButton>
+          <Link to="/store/cart">
+            <CartButton></CartButton>
+          </Link>
           <Link to="/Login">
-              <UserButton />
+            <UserButton />
           </Link>
         </div>
         {/* mobile nav */}
@@ -397,7 +405,9 @@ const Navbar = () => {
           className={`mobile-nav ${mobileMenuOpen ? "active" : ""}`}
         >
           <div className="button button-mobile">
+          <Link to="/store/cart">
             <CartButton></CartButton>
+          </Link>
             <Link to="/Login">
               <UserButton />
             </Link>

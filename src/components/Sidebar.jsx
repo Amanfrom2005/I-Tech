@@ -9,12 +9,12 @@ const Sidebar = ({ isOpen, closeSidebar }) => {
 
   // Define sidebar links
   const links = [
-    { title: 'Shop', icon: <ShoppingBag size={20} />, path: '/' },
-    { title: 'Cart', icon: <ShoppingCart size={20} />, path: '/cart', badge: getCartCount() },
-    { title: 'Checkout', icon: <CreditCard size={20} />, path: '/checkout' },
-    { title: 'Wishlist', icon: <Heart size={20} />, path: '/wishlist', badge: wishlistItems.length },
-    { title: 'Orders', icon: <Package size={20} />, path: '/orders' },
-    { title: 'Help', icon: <HelpCircle size={20} />, path: '/help' },
+    { title: 'Shop', icon: <ShoppingBag size={20} />, path: '/store' },
+    { title: 'Cart - ', icon: <ShoppingCart size={20} />, path: '/store/cart', badge: getCartCount() },
+    { title: 'Checkout', icon: <CreditCard size={20} />, path: '/store/checkout' },
+    { title: 'Wishlist - ', icon: <Heart size={20} />, path: '/store/wishlist', badge: wishlistItems.length },
+    { title: 'Orders', icon: <Package size={20} />, path: '/store/orders' },
+    { title: 'Help', icon: <HelpCircle size={20} />, path: '/store/help' },
   ];
 
   return (
@@ -29,15 +29,15 @@ const Sidebar = ({ isOpen, closeSidebar }) => {
 
       {/* Sidebar */}
       <aside 
-        className={`fixed top-0 left-0 z-50 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out lg:translate-x-0 lg:static lg:h-auto lg:shadow-none ${
+        className={`mt-[80px] fixed top-0 left-0 z-50 h-full w-64 bg-black shadow-lg transform transition-transform duration-300 ease-in-out lg:translate-x-0 lg:static lg:h-auto lg:shadow-none ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
-        <div className="h-full flex flex-col">
+        <div className="h-auto flex flex-col justify-between">
           {/* Sidebar header with close button (mobile only) */}
           <div className="px-4 py-5 flex items-center justify-between lg:hidden">
-            <Link to="/" className="font-bold text-xl text-slate-800">
-              Modern Shop
+            <Link to="/store" className="font-bold text-xl text-white">
+              Books Shop
             </Link>
             <button
               className="p-2 rounded-md text-gray-600 hover:text-gray-900 focus:outline-none"
@@ -47,27 +47,22 @@ const Sidebar = ({ isOpen, closeSidebar }) => {
             </button>
           </div>
 
-          {/* Desktop sidebar header (no close button) */}
-          <div className="hidden lg:flex px-4 py-5 items-center">
-            <Link to="/" className="font-bold text-xl text-slate-800">
-              Categories
-            </Link>
-          </div>
+          
 
           {/* Sidebar links */}
-          <nav className="flex-1 px-4 py-2 overflow-y-auto">
-            <ul className="space-y-2">
+          <nav className="flex flex-col px-4 py-2 overflow-y-auto">
+            <ul className="space-y-2 block">
               {links.map((link, index) => (
                 <li key={index}>
                   <Link
                     to={link.path}
-                    className="flex items-center px-4 py-3 text-gray-700 rounded-lg hover:bg-gray-100 transition-colors duration-200"
+                    className="clip-path flex items-center px-4 py-3 text-white rounded-sm hover:bg-secondary transition-colors duration-200"
                     onClick={closeSidebar}
                   >
                     <span className="text-gray-500">{link.icon}</span>
                     <span className="ml-3 font-medium">{link.title}</span>
                     {link.badge && link.badge > 0 && (
-                      <span className="ml-auto bg-amber-500 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
+                      <span className="ml-auto text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
                         {link.badge}
                       </span>
                     )}
@@ -77,10 +72,6 @@ const Sidebar = ({ isOpen, closeSidebar }) => {
             </ul>
           </nav>
 
-          {/* Sidebar footer */}
-          <div className="p-4 border-t border-gray-200">
-            <p className="text-sm text-gray-500">© 2025 Modern Shop</p>
-          </div>
         </div>
       </aside>
     </>

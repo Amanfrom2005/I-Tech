@@ -50,7 +50,7 @@ const ProductDetailPage = () => {
 
   const handleBuyNow = () => {
     handleAddToCart();
-    navigate('/checkout');
+    navigate('/store/checkout');
   };
 
   if (loading) {
@@ -67,7 +67,7 @@ const ProductDetailPage = () => {
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Product Not Found</h2>
         <p className="text-gray-600 mb-6">The product you're looking for doesn't exist or has been removed.</p>
         <Link 
-          to="/" 
+          to="/store" 
           className="inline-flex items-center px-4 py-2 bg-slate-800 text-white rounded-md hover:bg-slate-700 transition duration-200"
         >
           <ArrowLeft size={16} className="mr-2" />

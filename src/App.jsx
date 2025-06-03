@@ -3,6 +3,7 @@ import "./App.css";
 import Cursour from "./components/Cursour";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Layout from "./components/ShopLayout";
 import LayoutWithNavbar from "./pages/LayoutWithNavbar";
 import Home from "./pages/Home";
 import ShopPage from "./pages/Shop";
@@ -31,13 +32,16 @@ function App() {
               {/* Routes with Navbar */}
               <Route element={<LayoutWithNavbar />}>
                 <Route path="/" element={<Home />} />
-                <Route path="/store" element={<ShopPage />} />
-                <Route path="/product/:id" element={<ProductDetailPage />} />
-                <Route path="/cart" element={<CartPage />} />
-                <Route path="/checkout" element={<CheckoutPage />} />
-                <Route path="/wishlist" element={<WishlistPage />} />
-                <Route path="/orders" element={<OrdersPage />} />
-                <Route path="/help" element={<HelpPage />} />
+                
+                <Route path="/store" element={<Layout />}>
+                <Route index element={<ShopPage />} />
+                <Route path="product/:id" element={<ProductDetailPage />} />
+                <Route path="cart" element={<CartPage />} />
+                <Route path="checkout" element={<CheckoutPage />} />
+                <Route path="wishlist" element={<WishlistPage />} />
+                <Route path="orders" element={<OrdersPage />} />
+                <Route path="help" element={<HelpPage />} />
+              </Route>
               </Route>
             </Routes>
           </Router>

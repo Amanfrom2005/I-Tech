@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
 import "../styles/Navbar.css";
 
 const CartButton = ( ) => {
-    const [count, setCount] = useState(3);
 
   return (
-    <button className="cart-btn" aria-label="View shopping cart" onClick={() => setCount(count + 1)}    >
+    <button className="cart-btn" aria-label="View shopping cart"   >
       <svg
         width="2em"
         height="2em"
@@ -20,7 +18,6 @@ const CartButton = ( ) => {
         0-.55-.45-1-1-1H5.21l-.94-2H1zm16 
         16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" />
       </svg>
-      {count > 0 && <span>{count}</span>}
     </button>
   );
 };

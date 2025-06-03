@@ -11,7 +11,7 @@ const Layout = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen bg-gray-50 flex flex-col mt-[80px] justify-between">
       <Navbar toggleSidebar={toggleSidebar} />
       <div className="flex flex-1 relative">
         <Sidebar isOpen={sidebarOpen} closeSidebar={() => setSidebarOpen(false)} />

@@ -28,7 +28,7 @@ const WishlistPage = () => {
           <h2 className="text-xl font-semibold text-gray-900 mb-2">Your wishlist is empty</h2>
           <p className="text-gray-600 mb-6">Start adding items you love to your wishlist!</p>
           <Link 
-            to="/" 
+            to="/store" 
             className="inline-flex items-center px-6 py-3 bg-slate-800 text-white rounded-md hover:bg-slate-700 transition duration-200"
           >
             Continue Shopping
@@ -47,7 +47,7 @@ const WishlistPage = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {wishlistItems.map((item) => (
           <div key={item.id} className="bg-white rounded-lg shadow-sm overflow-hidden">
-            <Link to={`/product/${item.id}`} className="block relative pt-[100%]">
+            <Link to={`/store/product/${item.id}`} className="block relative pt-[100%]">
               <img 
                 src={item.image} 
                 alt={item.name}
@@ -57,7 +57,7 @@ const WishlistPage = () => {
 
             <div className="p-4">
               <Link 
-                to={`/product/${item.id}`} 
+                to={`/store/product/${item.id}`} 
                 className="text-gray-900 font-medium hover:text-slate-800"
               >
                 {item.name}

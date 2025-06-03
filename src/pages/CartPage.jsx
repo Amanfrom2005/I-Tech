@@ -52,7 +52,7 @@ const CartPage = () => {
           <h2 className="text-xl font-semibold text-gray-900 mb-2">Your cart is empty</h2>
           <p className="text-gray-600 mb-6">Looks like you haven't added any products to your cart yet.</p>
           <Link 
-            to="/" 
+            to="/store" 
             className="inline-flex items-center px-6 py-3 bg-slate-800 text-white rounded-md hover:bg-slate-700 transition duration-200"
           >
             Continue Shopping
@@ -92,7 +92,7 @@ const CartPage = () => {
               </button>
               
               <Link 
-                to="/" 
+                to="/store" 
                 className="text-slate-800 hover:text-slate-600 text-sm font-medium flex items-center"
               >
                 Continue Shopping
@@ -194,7 +194,7 @@ const CartItemRow = ({ item, onRemove, onIncrease, onDecrease }) => {
       
       <div className="sm:ml-6 flex-1 mt-4 sm:mt-0">
         <div className="flex justify-between">
-          <Link to={`/product/${item.id}`} className="font-medium text-gray-900 hover:text-slate-800">
+          <Link to={`/store/product/${item.id}`} className="font-medium text-gray-900 hover:text-slate-800">
             {item.name}
           </Link>
           <button 

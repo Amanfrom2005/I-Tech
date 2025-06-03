@@ -114,7 +114,7 @@ const CheckoutPage = () => {
           </p>
           <div className="flex justify-center space-x-4">
             <Link 
-              to="/" 
+              to="/store" 
               className="px-6 py-3 bg-slate-800 text-white rounded-md hover:bg-slate-700 transition duration-200"
             >
               Continue Shopping
@@ -150,7 +150,7 @@ const CheckoutPage = () => {
     <div className="container mx-auto py-8">
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold text-gray-900">Checkout</h1>
-        <Link to="/cart" className="text-slate-800 hover:text-slate-600 flex items-center">
+        <Link to="/store/cart" className="text-slate-800 hover:text-slate-600 flex items-center">
           <ArrowLeft size={16} className="mr-1" />
           Back to Cart
         </Link>

@@ -13,7 +13,7 @@ const ShopNavbar = ({ toggleSidebar }) => {
   const handleSearch = (e) => {
     e.preventDefault();
     if (searchQuery.trim()) {
-      navigate(`/?search=${encodeURIComponent(searchQuery.trim())}`);
+      navigate(`/store/?search=${encodeURIComponent(searchQuery.trim())}`);
     }
   };
 
@@ -41,16 +41,15 @@ const ShopNavbar = ({ toggleSidebar }) => {
           <div className="flex items-center">
             <button 
               onClick={toggleSidebar}
-              className=" text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 lg:hidden p-2"
+              className=" text-gray-600 hover:text-gray-900 hover:bg-secondary lg:hidden p-2"
             >
               <Menu size={24} />
-              <span className="sr-only">Open sidebar</span>
             </button>
           </div>
 
           {/* Search bar - hidden on mobile */}
           <form onSubmit={handleSearch} className="clip-path flex flex-row-reverse justify-between items-center max-w-lg w-full bg-white pl-3">
-            <Search size={24} className='clip-path bg-primary h-[46px] w-[46px] p-2' />
+            <Search size={24} className='bg-secondary h-[46px] w-[46px] p-2' />
             <input
               type="text"
               placeholder="Search products..."

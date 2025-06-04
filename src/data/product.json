@@ -1,5 +1,17 @@
 {
-  "categories": ["All", "Programming", "Web Development", "Data Science", "Mobile Development", "Game Development", "Computer Science"],
+  "categories": [
+    "All",
+    "Programming",
+    "Web Development",
+    "Data Science",
+    "Mobile Development",
+    "Game Development",
+    "Computer Science",
+    "Software Engineering",
+    "UI/UX Design",
+    "APIs and Microservices",
+    "Databases"
+  ],
   "products": [
     {
       "id": 1,
@@ -53,7 +65,7 @@
       "id": 3,
       "name": "The Pragmatic Programmer: Your Journey To Mastery",
       "category": "Programming",
-      "price": 42.50,
+      "price": 42.5,
       "discountPrice": 37.99,
       "rating": 4.8,
       "description": "This book teaches you how to become a pragmatic programmer who produces flexible, easy-to-maintain software with pride and accountability.",
@@ -174,7 +186,7 @@
       "name": "Head First Design Patterns: A Brain-Friendly Guide",
       "category": "Programming",
       "price": 49.99,
-      "discountPrice": 42.50,
+      "discountPrice": 42.5,
       "rating": 4.7,
       "description": "Using the latest research in cognitive science and learning theory, this book will load design patterns into your brain in a way that sticks.",
       "features": [
@@ -238,6 +250,3390 @@
         "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
         "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
         "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "JavaScript: The Good Parts",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "Douglas Crockford's classic book that distills JavaScript into its most elegant and useful parts, helping you write better code.",
+      "features": [
+        "Covers the best features of JavaScript",
+        "Focuses on language subtleties",
+        "Includes practical examples",
+        "Written by a JavaScript pioneer",
+        "Great for intermediate to advanced developers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Learning Python, 5th Edition",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "The definitive guide to Python programming language, covering everything from basic syntax to advanced topics like decorators and generators.",
+      "features": [
+        "Covers Python 3.x features",
+        "Includes practical examples and exercises",
+        "Updated with modern Python practices",
+        "Written by Mark Lutz",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "name": "Java: The Complete Reference, 11th Edition",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 54.99,
+      "rating": 4.8,
+      "description": "The definitive guide to Java programming language, covering everything from basic syntax to advanced topics like concurrency and networking.",
+      "features": [
+        "Covers Java SE 11 features",
+        "Includes practical examples and exercises",
+        "Updated with modern Java practices",
+        "Written by Herbert Schildt",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 14,
+      "name": "HTML and CSS: Design and Build Websites",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to HTML and CSS, perfect for beginners who want to learn how to build beautiful, responsive websites.",
+      "features": [
+        "Covers HTML5 and CSS3",
+        "Includes practical examples and exercises",
+        "Great for beginners",
+        "Focuses on modern web design practices",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 15,
+      "name": "JavaScript: The Definitive Guide, 7th Edition",
+      "category": "Web Development",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.8,
+      "description": "The definitive guide to JavaScript programming language, covering everything from basic syntax to advanced topics like asynchronous programming and modules.",
+      "features": [
+        "Covers JavaScript ES2020 features",
+        "Includes practical examples and exercises",
+        "Updated with modern JavaScript practices",
+        "Written by David Flanagan",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "name": "Learning SQL: Master SQL Fundamentals",
+      "category": "Databases",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.5,
+      "description": "A hands-on introduction to SQL that teaches you how to query databases effectively.",
+      "features": [
+        "Covers SQL fundamentals",
+        "Includes practical examples and exercises",
+        "Great for beginners and intermediate developers",
+        "Focuses on real-world database applications",
+        "Updated with modern SQL practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 17,
+      "name": "RESTful Web APIs: Services for a Changing World",
+      "category": "APIs and Microservices",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to building RESTful web services, covering best practices and design patterns.",
+      "features": [
+        "Covers REST principles and practices",
+        "Includes practical examples and case studies",
+        "Great for beginners and experienced developers",
+        "Focuses on modern API design",
+        "Updated with latest web standards"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "name": "Microservices Patterns: With examples in Java",
+      "category": "APIs and Microservices",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "A comprehensive guide to microservices architecture, covering patterns and best practices for building scalable applications.",
+      "features": [
+        "Covers microservices design patterns",
+        "Includes practical examples in Java",
+        "Great for beginners and experienced developers",
+        "Focuses on real-world applications",
+        "Updated with latest microservices practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 100,
+      "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
+      "category": "Computer Science",
+      "price": 79.99,
+      "discountPrice": 69.99,
+      "rating": 4.9,
+      "description": "The bible of all fundamental algorithms and the work that taught many of today's software developers most of what they know about computer programming.",
+      "features": [
+        "Volume 1 of Knuth's magnum opus",
+        "Covers fundamental algorithms",
+        "Includes hundreds of exercises",
+        "Mathematically rigorous approach",
+        "Considered essential for serious programmers"
+      ],
+      "colors": ["Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41msKv2oN9L._SX418_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41msKv2oN9L._SX418_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Q4OZJzQQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81EJoW3ZwQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 1,
+      "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "category": "Programming",
+      "price": 45.99,
+      "discountPrice": 39.99,
+      "rating": 4.8,
+      "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. This book teaches you how to write clean code through practical examples.",
+      "features": [
+        "Written by Robert C. Martin (Uncle Bob)",
+        "Covers principles of clean code",
+        "Includes case studies of increasing complexity",
+        "Teaches heuristics and smells to avoid",
+        "Focuses on practical software craftsmanship"
+      ],
+      "colors": ["Paperback", "Hardcover", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Q4OZJzQQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81EJoW3ZwQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 49.99,
+      "rating": 4.7,
+      "description": "The Gang of Four's classic catalog of 23 patterns to solve common design problems. Essential reading for object-oriented designers.",
+      "features": [
+        "Catalog of 23 design patterns",
+        "Covers creational, structural, and behavioral patterns",
+        "Includes real-world examples",
+        "Written by Gamma, Helm, Johnson, and Vlissides",
+        "Considered a foundational programming text"
+      ],
+      "colors": ["Paperback", "Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71BPuv+iRbL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81gtKoapHFL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "The Pragmatic Programmer: Your Journey To Mastery",
+      "category": "Programming",
+      "price": 42.5,
+      "discountPrice": 37.99,
+      "rating": 4.8,
+      "description": "This book teaches you how to become a pragmatic programmer who produces flexible, easy-to-maintain software with pride and accountability.",
+      "features": [
+        "20th anniversary edition",
+        "Covers career development and technical skills",
+        "Includes practical tips and best practices",
+        "Updated with modern examples",
+        "Focuses on the essence of software development"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71f743sOPoL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VStYnDGrL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Eloquent JavaScript: A Modern Introduction to Programming",
+      "category": "Programming",
+      "price": 34.99,
+      "discountPrice": 29.99,
+      "rating": 4.6,
+      "description": "This much anticipated and thoroughly revised third edition teaches you JavaScript from the ground up. Covers up to ES2020 features.",
+      "features": [
+        "Completely revised and updated",
+        "Covers JavaScript up to ES2020",
+        "Includes exercises and projects",
+        "Free online version available",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71QEK+ZzsML._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81sBXJeTwLL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Python Crash Course, 2nd Edition",
+      "category": "Programming",
+      "price": 39.95,
+      "discountPrice": 34.95,
+      "rating": 4.7,
+      "description": "A hands-on, project-based introduction to programming using Python. Perfect for beginners who want to build practical applications.",
+      "features": [
+        "Covers Python 3",
+        "Includes projects on games, data visualization, and web apps",
+        "Exercises throughout each chapter",
+        "Updated content and additional projects",
+        "Great for self-learners"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "You Don't Know JS Yet: Get Started",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "The first book in the You Don't Know JS Yet series gets you started with the foundational concepts in JavaScript.",
+      "features": [
+        "First book in the popular YDKJS series",
+        "Covers JS fundamentals in depth",
+        "Updated for modern JavaScript (ES6+)",
+        "Great for beginners and experienced developers",
+        "Prepares you for the rest of the series"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41T5H8u7fUL._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41T5H8u7fUL._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81xQB5faEYL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "The Rust Programming Language",
+      "category": "Programming",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.8,
+      "description": "The official guide to Rust, a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.",
+      "features": [
+        "Official Rust book",
+        "Covers Rust 2018 edition",
+        "Written by Rust core developers",
+        "Hands-on projects",
+        "Great for systems programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Hj2SL3nVL._SX379_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51Hj2SL3nVL._SX379_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71kXY2b7QQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81v1BQjSkJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Head First Design Patterns: A Brain-Friendly Guide",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 42.5,
+      "rating": 4.7,
+      "description": "Using the latest research in cognitive science and learning theory, this book will load design patterns into your brain in a way that sticks.",
+      "features": [
+        "Brain-friendly approach to design patterns",
+        "Covers all Gang of Four patterns",
+        "Updated with modern examples",
+        "Includes exercises and puzzles",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/81D4A7q3rfL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VfIUFtMhL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "name": "Effective Java, 3rd Edition",
+      "category": "Programming",
+      "price": 54.99,
+      "discountPrice": 47.99,
+      "rating": 4.9,
+      "description": "The definitive guide to Java programming language best practices from the creator of the Java collections framework.",
+      "features": [
+        "Covers Java 7, 8, and 9 features",
+        "90 items of essential Java advice",
+        "Updated with modern Java best practices",
+        "Written by Joshua Bloch",
+        "Considered a must-read for Java developers"
+      ],
+      "colors": ["Paperback", "Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51wl8cINKYL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51wl8cINKYL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "https://m.media-amazon.com/images/I/71uQ87nQ0BL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81p-HvGqAQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Learning React: Modern Patterns for Developing React Apps",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "If you want to learn how to build efficient React applications, this is your book. Covers hooks, context API, and modern React patterns.",
+      "features": [
+        "Covers React hooks",
+        "Includes modern React patterns",
+        "Practical examples throughout",
+        "Great for beginners and intermediate developers",
+        "Updated for latest React features"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "JavaScript: The Good Parts",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "Douglas Crockford's classic book that distills JavaScript into its most elegant and useful parts, helping you write better code.",
+      "features": [
+        "Covers the best features of JavaScript",
+        "Focuses on language subtleties",
+        "Includes practical examples",
+        "Written by a JavaScript pioneer",
+        "Great for intermediate to advanced developers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Learning Python, 5th Edition",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "The definitive guide to Python programming language, covering everything from basic syntax to advanced topics like decorators and generators.",
+      "features": [
+        "Covers Python 3.x features",
+        "Includes practical examples and exercises",
+        "Updated with modern Python practices",
+        "Written by Mark Lutz",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "name": "Java: The Complete Reference, 11th Edition",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 54.99,
+      "rating": 4.8,
+      "description": "The definitive guide to Java programming language, covering everything from basic syntax to advanced topics like concurrency and networking.",
+      "features": [
+        "Covers Java SE 11 features",
+        "Includes practical examples and exercises",
+        "Updated with modern Java practices",
+        "Written by Herbert Schildt",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 14,
+      "name": "HTML and CSS: Design and Build Websites",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to HTML and CSS, perfect for beginners who want to learn how to build beautiful, responsive websites.",
+      "features": [
+        "Covers HTML5 and CSS3",
+        "Includes practical examples and exercises",
+        "Great for beginners",
+        "Focuses on modern web design practices",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 15,
+      "name": "JavaScript: The Definitive Guide, 7th Edition",
+      "category": "Web Development",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.8,
+      "description": "The definitive guide to JavaScript programming language, covering everything from basic syntax to advanced topics like asynchronous programming and modules.",
+      "features": [
+        "Covers JavaScript ES2020 features",
+        "Includes practical examples and exercises",
+        "Updated with modern JavaScript practices",
+        "Written by David Flanagan",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "name": "Learning SQL: Master SQL Fundamentals",
+      "category": "Databases",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.5,
+      "description": "A hands-on introduction to SQL that teaches you how to query databases effectively.",
+      "features": [
+        "Covers SQL fundamentals",
+        "Includes practical examples and exercises",
+        "Great for beginners and intermediate developers",
+        "Focuses on real-world database applications",
+        "Updated with modern SQL practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 17,
+      "name": "RESTful Web APIs: Services for a Changing World",
+      "category": "APIs and Microservices",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to building RESTful web services, covering best practices and design patterns.",
+      "features": [
+        "Covers REST principles and practices",
+        "Includes practical examples and case studies",
+        "Great for beginners and experienced developers",
+        "Focuses on modern API design",
+        "Updated with latest web standards"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "name": "Microservices Patterns: With examples in Java",
+      "category": "APIs and Microservices",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "A comprehensive guide to microservices architecture, covering patterns and best practices for building scalable applications.",
+      "features": [
+        "Covers microservices design patterns",
+        "Includes practical examples in Java",
+        "Great for beginners and experienced developers",
+        "Focuses on real-world applications",
+        "Updated with latest microservices practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 100,
+      "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
+      "category": "Computer Science",
+      "price": 79.99,
+      "discountPrice": 69.99,
+      "rating": 4.9,
+      "description": "The bible of all fundamental algorithms and the work that taught many of today's software developers most of what they know about computer programming.",
+      "features": [
+        "Volume 1 of Knuth's magnum opus",
+        "Covers fundamental algorithms",
+        "Includes hundreds of exercises",
+        "Mathematically rigorous approach",
+        "Considered essential for serious programmers"
+      ],
+      "colors": ["Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41msKv2oN9L._SX418_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41msKv2oN9L._SX418_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Q4OZJzQQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81EJoW3ZwQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 1,
+      "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "category": "Programming",
+      "price": 45.99,
+      "discountPrice": 39.99,
+      "rating": 4.8,
+      "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. This book teaches you how to write clean code through practical examples.",
+      "features": [
+        "Written by Robert C. Martin (Uncle Bob)",
+        "Covers principles of clean code",
+        "Includes case studies of increasing complexity",
+        "Teaches heuristics and smells to avoid",
+        "Focuses on practical software craftsmanship"
+      ],
+      "colors": ["Paperback", "Hardcover", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Q4OZJzQQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81EJoW3ZwQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 49.99,
+      "rating": 4.7,
+      "description": "The Gang of Four's classic catalog of 23 patterns to solve common design problems. Essential reading for object-oriented designers.",
+      "features": [
+        "Catalog of 23 design patterns",
+        "Covers creational, structural, and behavioral patterns",
+        "Includes real-world examples",
+        "Written by Gamma, Helm, Johnson, and Vlissides",
+        "Considered a foundational programming text"
+      ],
+      "colors": ["Paperback", "Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71BPuv+iRbL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81gtKoapHFL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "The Pragmatic Programmer: Your Journey To Mastery",
+      "category": "Programming",
+      "price": 42.5,
+      "discountPrice": 37.99,
+      "rating": 4.8,
+      "description": "This book teaches you how to become a pragmatic programmer who produces flexible, easy-to-maintain software with pride and accountability.",
+      "features": [
+        "20th anniversary edition",
+        "Covers career development and technical skills",
+        "Includes practical tips and best practices",
+        "Updated with modern examples",
+        "Focuses on the essence of software development"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71f743sOPoL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VStYnDGrL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Eloquent JavaScript: A Modern Introduction to Programming",
+      "category": "Programming",
+      "price": 34.99,
+      "discountPrice": 29.99,
+      "rating": 4.6,
+      "description": "This much anticipated and thoroughly revised third edition teaches you JavaScript from the ground up. Covers up to ES2020 features.",
+      "features": [
+        "Completely revised and updated",
+        "Covers JavaScript up to ES2020",
+        "Includes exercises and projects",
+        "Free online version available",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71QEK+ZzsML._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81sBXJeTwLL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Python Crash Course, 2nd Edition",
+      "category": "Programming",
+      "price": 39.95,
+      "discountPrice": 34.95,
+      "rating": 4.7,
+      "description": "A hands-on, project-based introduction to programming using Python. Perfect for beginners who want to build practical applications.",
+      "features": [
+        "Covers Python 3",
+        "Includes projects on games, data visualization, and web apps",
+        "Exercises throughout each chapter",
+        "Updated content and additional projects",
+        "Great for self-learners"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "You Don't Know JS Yet: Get Started",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "The first book in the You Don't Know JS Yet series gets you started with the foundational concepts in JavaScript.",
+      "features": [
+        "First book in the popular YDKJS series",
+        "Covers JS fundamentals in depth",
+        "Updated for modern JavaScript (ES6+)",
+        "Great for beginners and experienced developers",
+        "Prepares you for the rest of the series"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41T5H8u7fUL._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41T5H8u7fUL._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81xQB5faEYL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "The Rust Programming Language",
+      "category": "Programming",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.8,
+      "description": "The official guide to Rust, a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.",
+      "features": [
+        "Official Rust book",
+        "Covers Rust 2018 edition",
+        "Written by Rust core developers",
+        "Hands-on projects",
+        "Great for systems programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Hj2SL3nVL._SX379_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51Hj2SL3nVL._SX379_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71kXY2b7QQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81v1BQjSkJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Head First Design Patterns: A Brain-Friendly Guide",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 42.5,
+      "rating": 4.7,
+      "description": "Using the latest research in cognitive science and learning theory, this book will load design patterns into your brain in a way that sticks.",
+      "features": [
+        "Brain-friendly approach to design patterns",
+        "Covers all Gang of Four patterns",
+        "Updated with modern examples",
+        "Includes exercises and puzzles",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/81D4A7q3rfL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VfIUFtMhL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "name": "Effective Java, 3rd Edition",
+      "category": "Programming",
+      "price": 54.99,
+      "discountPrice": 47.99,
+      "rating": 4.9,
+      "description": "The definitive guide to Java programming language best practices from the creator of the Java collections framework.",
+      "features": [
+        "Covers Java 7, 8, and 9 features",
+        "90 items of essential Java advice",
+        "Updated with modern Java best practices",
+        "Written by Joshua Bloch",
+        "Considered a must-read for Java developers"
+      ],
+      "colors": ["Paperback", "Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51wl8cINKYL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51wl8cINKYL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "https://m.media-amazon.com/images/I/71uQ87nQ0BL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81p-HvGqAQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Learning React: Modern Patterns for Developing React Apps",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "If you want to learn how to build efficient React applications, this is your book. Covers hooks, context API, and modern React patterns.",
+      "features": [
+        "Covers React hooks",
+        "Includes modern React patterns",
+        "Practical examples throughout",
+        "Great for beginners and intermediate developers",
+        "Updated for latest React features"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "JavaScript: The Good Parts",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "Douglas Crockford's classic book that distills JavaScript into its most elegant and useful parts, helping you write better code.",
+      "features": [
+        "Covers the best features of JavaScript",
+        "Focuses on language subtleties",
+        "Includes practical examples",
+        "Written by a JavaScript pioneer",
+        "Great for intermediate to advanced developers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Learning Python, 5th Edition",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "The definitive guide to Python programming language, covering everything from basic syntax to advanced topics like decorators and generators.",
+      "features": [
+        "Covers Python 3.x features",
+        "Includes practical examples and exercises",
+        "Updated with modern Python practices",
+        "Written by Mark Lutz",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "name": "Java: The Complete Reference, 11th Edition",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 54.99,
+      "rating": 4.8,
+      "description": "The definitive guide to Java programming language, covering everything from basic syntax to advanced topics like concurrency and networking.",
+      "features": [
+        "Covers Java SE 11 features",
+        "Includes practical examples and exercises",
+        "Updated with modern Java practices",
+        "Written by Herbert Schildt",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 14,
+      "name": "HTML and CSS: Design and Build Websites",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to HTML and CSS, perfect for beginners who want to learn how to build beautiful, responsive websites.",
+      "features": [
+        "Covers HTML5 and CSS3",
+        "Includes practical examples and exercises",
+        "Great for beginners",
+        "Focuses on modern web design practices",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 15,
+      "name": "JavaScript: The Definitive Guide, 7th Edition",
+      "category": "Web Development",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.8,
+      "description": "The definitive guide to JavaScript programming language, covering everything from basic syntax to advanced topics like asynchronous programming and modules.",
+      "features": [
+        "Covers JavaScript ES2020 features",
+        "Includes practical examples and exercises",
+        "Updated with modern JavaScript practices",
+        "Written by David Flanagan",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "name": "Learning SQL: Master SQL Fundamentals",
+      "category": "Databases",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.5,
+      "description": "A hands-on introduction to SQL that teaches you how to query databases effectively.",
+      "features": [
+        "Covers SQL fundamentals",
+        "Includes practical examples and exercises",
+        "Great for beginners and intermediate developers",
+        "Focuses on real-world database applications",
+        "Updated with modern SQL practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 17,
+      "name": "RESTful Web APIs: Services for a Changing World",
+      "category": "APIs and Microservices",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to building RESTful web services, covering best practices and design patterns.",
+      "features": [
+        "Covers REST principles and practices",
+        "Includes practical examples and case studies",
+        "Great for beginners and experienced developers",
+        "Focuses on modern API design",
+        "Updated with latest web standards"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "name": "Microservices Patterns: With examples in Java",
+      "category": "APIs and Microservices",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "A comprehensive guide to microservices architecture, covering patterns and best practices for building scalable applications.",
+      "features": [
+        "Covers microservices design patterns",
+        "Includes practical examples in Java",
+        "Great for beginners and experienced developers",
+        "Focuses on real-world applications",
+        "Updated with latest microservices practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 100,
+      "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
+      "category": "Computer Science",
+      "price": 79.99,
+      "discountPrice": 69.99,
+      "rating": 4.9,
+      "description": "The bible of all fundamental algorithms and the work that taught many of today's software developers most of what they know about computer programming.",
+      "features": [
+        "Volume 1 of Knuth's magnum opus",
+        "Covers fundamental algorithms",
+        "Includes hundreds of exercises",
+        "Mathematically rigorous approach",
+        "Considered essential for serious programmers"
+      ],
+      "colors": ["Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41msKv2oN9L._SX418_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41msKv2oN9L._SX418_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Q4OZJzQQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81EJoW3ZwQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 1,
+      "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "category": "Programming",
+      "price": 45.99,
+      "discountPrice": 39.99,
+      "rating": 4.8,
+      "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. This book teaches you how to write clean code through practical examples.",
+      "features": [
+        "Written by Robert C. Martin (Uncle Bob)",
+        "Covers principles of clean code",
+        "Includes case studies of increasing complexity",
+        "Teaches heuristics and smells to avoid",
+        "Focuses on practical software craftsmanship"
+      ],
+      "colors": ["Paperback", "Hardcover", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Q4OZJzQQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81EJoW3ZwQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 49.99,
+      "rating": 4.7,
+      "description": "The Gang of Four's classic catalog of 23 patterns to solve common design problems. Essential reading for object-oriented designers.",
+      "features": [
+        "Catalog of 23 design patterns",
+        "Covers creational, structural, and behavioral patterns",
+        "Includes real-world examples",
+        "Written by Gamma, Helm, Johnson, and Vlissides",
+        "Considered a foundational programming text"
+      ],
+      "colors": ["Paperback", "Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71BPuv+iRbL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81gtKoapHFL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "The Pragmatic Programmer: Your Journey To Mastery",
+      "category": "Programming",
+      "price": 42.5,
+      "discountPrice": 37.99,
+      "rating": 4.8,
+      "description": "This book teaches you how to become a pragmatic programmer who produces flexible, easy-to-maintain software with pride and accountability.",
+      "features": [
+        "20th anniversary edition",
+        "Covers career development and technical skills",
+        "Includes practical tips and best practices",
+        "Updated with modern examples",
+        "Focuses on the essence of software development"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71f743sOPoL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VStYnDGrL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Eloquent JavaScript: A Modern Introduction to Programming",
+      "category": "Programming",
+      "price": 34.99,
+      "discountPrice": 29.99,
+      "rating": 4.6,
+      "description": "This much anticipated and thoroughly revised third edition teaches you JavaScript from the ground up. Covers up to ES2020 features.",
+      "features": [
+        "Completely revised and updated",
+        "Covers JavaScript up to ES2020",
+        "Includes exercises and projects",
+        "Free online version available",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71QEK+ZzsML._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81sBXJeTwLL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Python Crash Course, 2nd Edition",
+      "category": "Programming",
+      "price": 39.95,
+      "discountPrice": 34.95,
+      "rating": 4.7,
+      "description": "A hands-on, project-based introduction to programming using Python. Perfect for beginners who want to build practical applications.",
+      "features": [
+        "Covers Python 3",
+        "Includes projects on games, data visualization, and web apps",
+        "Exercises throughout each chapter",
+        "Updated content and additional projects",
+        "Great for self-learners"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "You Don't Know JS Yet: Get Started",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "The first book in the You Don't Know JS Yet series gets you started with the foundational concepts in JavaScript.",
+      "features": [
+        "First book in the popular YDKJS series",
+        "Covers JS fundamentals in depth",
+        "Updated for modern JavaScript (ES6+)",
+        "Great for beginners and experienced developers",
+        "Prepares you for the rest of the series"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41T5H8u7fUL._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41T5H8u7fUL._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81xQB5faEYL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "The Rust Programming Language",
+      "category": "Programming",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.8,
+      "description": "The official guide to Rust, a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.",
+      "features": [
+        "Official Rust book",
+        "Covers Rust 2018 edition",
+        "Written by Rust core developers",
+        "Hands-on projects",
+        "Great for systems programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Hj2SL3nVL._SX379_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51Hj2SL3nVL._SX379_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71kXY2b7QQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81v1BQjSkJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Head First Design Patterns: A Brain-Friendly Guide",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 42.5,
+      "rating": 4.7,
+      "description": "Using the latest research in cognitive science and learning theory, this book will load design patterns into your brain in a way that sticks.",
+      "features": [
+        "Brain-friendly approach to design patterns",
+        "Covers all Gang of Four patterns",
+        "Updated with modern examples",
+        "Includes exercises and puzzles",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/81D4A7q3rfL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VfIUFtMhL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "name": "Effective Java, 3rd Edition",
+      "category": "Programming",
+      "price": 54.99,
+      "discountPrice": 47.99,
+      "rating": 4.9,
+      "description": "The definitive guide to Java programming language best practices from the creator of the Java collections framework.",
+      "features": [
+        "Covers Java 7, 8, and 9 features",
+        "90 items of essential Java advice",
+        "Updated with modern Java best practices",
+        "Written by Joshua Bloch",
+        "Considered a must-read for Java developers"
+      ],
+      "colors": ["Paperback", "Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51wl8cINKYL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51wl8cINKYL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "https://m.media-amazon.com/images/I/71uQ87nQ0BL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81p-HvGqAQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Learning React: Modern Patterns for Developing React Apps",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "If you want to learn how to build efficient React applications, this is your book. Covers hooks, context API, and modern React patterns.",
+      "features": [
+        "Covers React hooks",
+        "Includes modern React patterns",
+        "Practical examples throughout",
+        "Great for beginners and intermediate developers",
+        "Updated for latest React features"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "JavaScript: The Good Parts",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "Douglas Crockford's classic book that distills JavaScript into its most elegant and useful parts, helping you write better code.",
+      "features": [
+        "Covers the best features of JavaScript",
+        "Focuses on language subtleties",
+        "Includes practical examples",
+        "Written by a JavaScript pioneer",
+        "Great for intermediate to advanced developers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Learning Python, 5th Edition",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "The definitive guide to Python programming language, covering everything from basic syntax to advanced topics like decorators and generators.",
+      "features": [
+        "Covers Python 3.x features",
+        "Includes practical examples and exercises",
+        "Updated with modern Python practices",
+        "Written by Mark Lutz",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "name": "Java: The Complete Reference, 11th Edition",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 54.99,
+      "rating": 4.8,
+      "description": "The definitive guide to Java programming language, covering everything from basic syntax to advanced topics like concurrency and networking.",
+      "features": [
+        "Covers Java SE 11 features",
+        "Includes practical examples and exercises",
+        "Updated with modern Java practices",
+        "Written by Herbert Schildt",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 14,
+      "name": "HTML and CSS: Design and Build Websites",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to HTML and CSS, perfect for beginners who want to learn how to build beautiful, responsive websites.",
+      "features": [
+        "Covers HTML5 and CSS3",
+        "Includes practical examples and exercises",
+        "Great for beginners",
+        "Focuses on modern web design practices",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 15,
+      "name": "JavaScript: The Definitive Guide, 7th Edition",
+      "category": "Web Development",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.8,
+      "description": "The definitive guide to JavaScript programming language, covering everything from basic syntax to advanced topics like asynchronous programming and modules.",
+      "features": [
+        "Covers JavaScript ES2020 features",
+        "Includes practical examples and exercises",
+        "Updated with modern JavaScript practices",
+        "Written by David Flanagan",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "name": "Learning SQL: Master SQL Fundamentals",
+      "category": "Databases",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.5,
+      "description": "A hands-on introduction to SQL that teaches you how to query databases effectively.",
+      "features": [
+        "Covers SQL fundamentals",
+        "Includes practical examples and exercises",
+        "Great for beginners and intermediate developers",
+        "Focuses on real-world database applications",
+        "Updated with modern SQL practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 17,
+      "name": "RESTful Web APIs: Services for a Changing World",
+      "category": "APIs and Microservices",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to building RESTful web services, covering best practices and design patterns.",
+      "features": [
+        "Covers REST principles and practices",
+        "Includes practical examples and case studies",
+        "Great for beginners and experienced developers",
+        "Focuses on modern API design",
+        "Updated with latest web standards"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "name": "Microservices Patterns: With examples in Java",
+      "category": "APIs and Microservices",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "A comprehensive guide to microservices architecture, covering patterns and best practices for building scalable applications.",
+      "features": [
+        "Covers microservices design patterns",
+        "Includes practical examples in Java",
+        "Great for beginners and experienced developers",
+        "Focuses on real-world applications",
+        "Updated with latest microservices practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 100,
+      "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
+      "category": "Computer Science",
+      "price": 79.99,
+      "discountPrice": 69.99,
+      "rating": 4.9,
+      "description": "The bible of all fundamental algorithms and the work that taught many of today's software developers most of what they know about computer programming.",
+      "features": [
+        "Volume 1 of Knuth's magnum opus",
+        "Covers fundamental algorithms",
+        "Includes hundreds of exercises",
+        "Mathematically rigorous approach",
+        "Considered essential for serious programmers"
+      ],
+      "colors": ["Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41msKv2oN9L._SX418_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41msKv2oN9L._SX418_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Q4OZJzQQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81EJoW3ZwQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 1,
+      "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "category": "Programming",
+      "price": 45.99,
+      "discountPrice": 39.99,
+      "rating": 4.8,
+      "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. This book teaches you how to write clean code through practical examples.",
+      "features": [
+        "Written by Robert C. Martin (Uncle Bob)",
+        "Covers principles of clean code",
+        "Includes case studies of increasing complexity",
+        "Teaches heuristics and smells to avoid",
+        "Focuses on practical software craftsmanship"
+      ],
+      "colors": ["Paperback", "Hardcover", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Q4OZJzQQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81EJoW3ZwQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 49.99,
+      "rating": 4.7,
+      "description": "The Gang of Four's classic catalog of 23 patterns to solve common design problems. Essential reading for object-oriented designers.",
+      "features": [
+        "Catalog of 23 design patterns",
+        "Covers creational, structural, and behavioral patterns",
+        "Includes real-world examples",
+        "Written by Gamma, Helm, Johnson, and Vlissides",
+        "Considered a foundational programming text"
+      ],
+      "colors": ["Paperback", "Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71BPuv+iRbL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81gtKoapHFL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "The Pragmatic Programmer: Your Journey To Mastery",
+      "category": "Programming",
+      "price": 42.5,
+      "discountPrice": 37.99,
+      "rating": 4.8,
+      "description": "This book teaches you how to become a pragmatic programmer who produces flexible, easy-to-maintain software with pride and accountability.",
+      "features": [
+        "20th anniversary edition",
+        "Covers career development and technical skills",
+        "Includes practical tips and best practices",
+        "Updated with modern examples",
+        "Focuses on the essence of software development"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71f743sOPoL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VStYnDGrL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Eloquent JavaScript: A Modern Introduction to Programming",
+      "category": "Programming",
+      "price": 34.99,
+      "discountPrice": 29.99,
+      "rating": 4.6,
+      "description": "This much anticipated and thoroughly revised third edition teaches you JavaScript from the ground up. Covers up to ES2020 features.",
+      "features": [
+        "Completely revised and updated",
+        "Covers JavaScript up to ES2020",
+        "Includes exercises and projects",
+        "Free online version available",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71QEK+ZzsML._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81sBXJeTwLL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Python Crash Course, 2nd Edition",
+      "category": "Programming",
+      "price": 39.95,
+      "discountPrice": 34.95,
+      "rating": 4.7,
+      "description": "A hands-on, project-based introduction to programming using Python. Perfect for beginners who want to build practical applications.",
+      "features": [
+        "Covers Python 3",
+        "Includes projects on games, data visualization, and web apps",
+        "Exercises throughout each chapter",
+        "Updated content and additional projects",
+        "Great for self-learners"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "You Don't Know JS Yet: Get Started",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "The first book in the You Don't Know JS Yet series gets you started with the foundational concepts in JavaScript.",
+      "features": [
+        "First book in the popular YDKJS series",
+        "Covers JS fundamentals in depth",
+        "Updated for modern JavaScript (ES6+)",
+        "Great for beginners and experienced developers",
+        "Prepares you for the rest of the series"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41T5H8u7fUL._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41T5H8u7fUL._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81xQB5faEYL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "The Rust Programming Language",
+      "category": "Programming",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.8,
+      "description": "The official guide to Rust, a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.",
+      "features": [
+        "Official Rust book",
+        "Covers Rust 2018 edition",
+        "Written by Rust core developers",
+        "Hands-on projects",
+        "Great for systems programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Hj2SL3nVL._SX379_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51Hj2SL3nVL._SX379_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71kXY2b7QQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81v1BQjSkJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Head First Design Patterns: A Brain-Friendly Guide",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 42.5,
+      "rating": 4.7,
+      "description": "Using the latest research in cognitive science and learning theory, this book will load design patterns into your brain in a way that sticks.",
+      "features": [
+        "Brain-friendly approach to design patterns",
+        "Covers all Gang of Four patterns",
+        "Updated with modern examples",
+        "Includes exercises and puzzles",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/81D4A7q3rfL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VfIUFtMhL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "name": "Effective Java, 3rd Edition",
+      "category": "Programming",
+      "price": 54.99,
+      "discountPrice": 47.99,
+      "rating": 4.9,
+      "description": "The definitive guide to Java programming language best practices from the creator of the Java collections framework.",
+      "features": [
+        "Covers Java 7, 8, and 9 features",
+        "90 items of essential Java advice",
+        "Updated with modern Java best practices",
+        "Written by Joshua Bloch",
+        "Considered a must-read for Java developers"
+      ],
+      "colors": ["Paperback", "Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51wl8cINKYL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51wl8cINKYL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "https://m.media-amazon.com/images/I/71uQ87nQ0BL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81p-HvGqAQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Learning React: Modern Patterns for Developing React Apps",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "If you want to learn how to build efficient React applications, this is your book. Covers hooks, context API, and modern React patterns.",
+      "features": [
+        "Covers React hooks",
+        "Includes modern React patterns",
+        "Practical examples throughout",
+        "Great for beginners and intermediate developers",
+        "Updated for latest React features"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "JavaScript: The Good Parts",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "Douglas Crockford's classic book that distills JavaScript into its most elegant and useful parts, helping you write better code.",
+      "features": [
+        "Covers the best features of JavaScript",
+        "Focuses on language subtleties",
+        "Includes practical examples",
+        "Written by a JavaScript pioneer",
+        "Great for intermediate to advanced developers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Learning Python, 5th Edition",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "The definitive guide to Python programming language, covering everything from basic syntax to advanced topics like decorators and generators.",
+      "features": [
+        "Covers Python 3.x features",
+        "Includes practical examples and exercises",
+        "Updated with modern Python practices",
+        "Written by Mark Lutz",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "name": "Java: The Complete Reference, 11th Edition",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 54.99,
+      "rating": 4.8,
+      "description": "The definitive guide to Java programming language, covering everything from basic syntax to advanced topics like concurrency and networking.",
+      "features": [
+        "Covers Java SE 11 features",
+        "Includes practical examples and exercises",
+        "Updated with modern Java practices",
+        "Written by Herbert Schildt",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 14,
+      "name": "HTML and CSS: Design and Build Websites",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to HTML and CSS, perfect for beginners who want to learn how to build beautiful, responsive websites.",
+      "features": [
+        "Covers HTML5 and CSS3",
+        "Includes practical examples and exercises",
+        "Great for beginners",
+        "Focuses on modern web design practices",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 15,
+      "name": "JavaScript: The Definitive Guide, 7th Edition",
+      "category": "Web Development",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.8,
+      "description": "The definitive guide to JavaScript programming language, covering everything from basic syntax to advanced topics like asynchronous programming and modules.",
+      "features": [
+        "Covers JavaScript ES2020 features",
+        "Includes practical examples and exercises",
+        "Updated with modern JavaScript practices",
+        "Written by David Flanagan",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "name": "Learning SQL: Master SQL Fundamentals",
+      "category": "Databases",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.5,
+      "description": "A hands-on introduction to SQL that teaches you how to query databases effectively.",
+      "features": [
+        "Covers SQL fundamentals",
+        "Includes practical examples and exercises",
+        "Great for beginners and intermediate developers",
+        "Focuses on real-world database applications",
+        "Updated with modern SQL practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 17,
+      "name": "RESTful Web APIs: Services for a Changing World",
+      "category": "APIs and Microservices",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to building RESTful web services, covering best practices and design patterns.",
+      "features": [
+        "Covers REST principles and practices",
+        "Includes practical examples and case studies",
+        "Great for beginners and experienced developers",
+        "Focuses on modern API design",
+        "Updated with latest web standards"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "name": "Microservices Patterns: With examples in Java",
+      "category": "APIs and Microservices",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "A comprehensive guide to microservices architecture, covering patterns and best practices for building scalable applications.",
+      "features": [
+        "Covers microservices design patterns",
+        "Includes practical examples in Java",
+        "Great for beginners and experienced developers",
+        "Focuses on real-world applications",
+        "Updated with latest microservices practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 100,
+      "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
+      "category": "Computer Science",
+      "price": 79.99,
+      "discountPrice": 69.99,
+      "rating": 4.9,
+      "description": "The bible of all fundamental algorithms and the work that taught many of today's software developers most of what they know about computer programming.",
+      "features": [
+        "Volume 1 of Knuth's magnum opus",
+        "Covers fundamental algorithms",
+        "Includes hundreds of exercises",
+        "Mathematically rigorous approach",
+        "Considered essential for serious programmers"
+      ],
+      "colors": ["Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41msKv2oN9L._SX418_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41msKv2oN9L._SX418_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Q4OZJzQQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81EJoW3ZwQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 1,
+      "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "category": "Programming",
+      "price": 45.99,
+      "discountPrice": 39.99,
+      "rating": 4.8,
+      "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. This book teaches you how to write clean code through practical examples.",
+      "features": [
+        "Written by Robert C. Martin (Uncle Bob)",
+        "Covers principles of clean code",
+        "Includes case studies of increasing complexity",
+        "Teaches heuristics and smells to avoid",
+        "Focuses on practical software craftsmanship"
+      ],
+      "colors": ["Paperback", "Hardcover", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Q4OZJzQQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81EJoW3ZwQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 49.99,
+      "rating": 4.7,
+      "description": "The Gang of Four's classic catalog of 23 patterns to solve common design problems. Essential reading for object-oriented designers.",
+      "features": [
+        "Catalog of 23 design patterns",
+        "Covers creational, structural, and behavioral patterns",
+        "Includes real-world examples",
+        "Written by Gamma, Helm, Johnson, and Vlissides",
+        "Considered a foundational programming text"
+      ],
+      "colors": ["Paperback", "Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71BPuv+iRbL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81gtKoapHFL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "The Pragmatic Programmer: Your Journey To Mastery",
+      "category": "Programming",
+      "price": 42.5,
+      "discountPrice": 37.99,
+      "rating": 4.8,
+      "description": "This book teaches you how to become a pragmatic programmer who produces flexible, easy-to-maintain software with pride and accountability.",
+      "features": [
+        "20th anniversary edition",
+        "Covers career development and technical skills",
+        "Includes practical tips and best practices",
+        "Updated with modern examples",
+        "Focuses on the essence of software development"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71f743sOPoL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VStYnDGrL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Eloquent JavaScript: A Modern Introduction to Programming",
+      "category": "Programming",
+      "price": 34.99,
+      "discountPrice": 29.99,
+      "rating": 4.6,
+      "description": "This much anticipated and thoroughly revised third edition teaches you JavaScript from the ground up. Covers up to ES2020 features.",
+      "features": [
+        "Completely revised and updated",
+        "Covers JavaScript up to ES2020",
+        "Includes exercises and projects",
+        "Free online version available",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71QEK+ZzsML._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81sBXJeTwLL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Python Crash Course, 2nd Edition",
+      "category": "Programming",
+      "price": 39.95,
+      "discountPrice": 34.95,
+      "rating": 4.7,
+      "description": "A hands-on, project-based introduction to programming using Python. Perfect for beginners who want to build practical applications.",
+      "features": [
+        "Covers Python 3",
+        "Includes projects on games, data visualization, and web apps",
+        "Exercises throughout each chapter",
+        "Updated content and additional projects",
+        "Great for self-learners"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "You Don't Know JS Yet: Get Started",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "The first book in the You Don't Know JS Yet series gets you started with the foundational concepts in JavaScript.",
+      "features": [
+        "First book in the popular YDKJS series",
+        "Covers JS fundamentals in depth",
+        "Updated for modern JavaScript (ES6+)",
+        "Great for beginners and experienced developers",
+        "Prepares you for the rest of the series"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41T5H8u7fUL._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41T5H8u7fUL._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81xQB5faEYL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "The Rust Programming Language",
+      "category": "Programming",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.8,
+      "description": "The official guide to Rust, a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.",
+      "features": [
+        "Official Rust book",
+        "Covers Rust 2018 edition",
+        "Written by Rust core developers",
+        "Hands-on projects",
+        "Great for systems programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Hj2SL3nVL._SX379_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51Hj2SL3nVL._SX379_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71kXY2b7QQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81v1BQjSkJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Head First Design Patterns: A Brain-Friendly Guide",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 42.5,
+      "rating": 4.7,
+      "description": "Using the latest research in cognitive science and learning theory, this book will load design patterns into your brain in a way that sticks.",
+      "features": [
+        "Brain-friendly approach to design patterns",
+        "Covers all Gang of Four patterns",
+        "Updated with modern examples",
+        "Includes exercises and puzzles",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/81D4A7q3rfL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VfIUFtMhL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "name": "Effective Java, 3rd Edition",
+      "category": "Programming",
+      "price": 54.99,
+      "discountPrice": 47.99,
+      "rating": 4.9,
+      "description": "The definitive guide to Java programming language best practices from the creator of the Java collections framework.",
+      "features": [
+        "Covers Java 7, 8, and 9 features",
+        "90 items of essential Java advice",
+        "Updated with modern Java best practices",
+        "Written by Joshua Bloch",
+        "Considered a must-read for Java developers"
+      ],
+      "colors": ["Paperback", "Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51wl8cINKYL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51wl8cINKYL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "https://m.media-amazon.com/images/I/71uQ87nQ0BL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81p-HvGqAQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Learning React: Modern Patterns for Developing React Apps",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "If you want to learn how to build efficient React applications, this is your book. Covers hooks, context API, and modern React patterns.",
+      "features": [
+        "Covers React hooks",
+        "Includes modern React patterns",
+        "Practical examples throughout",
+        "Great for beginners and intermediate developers",
+        "Updated for latest React features"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "JavaScript: The Good Parts",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "Douglas Crockford's classic book that distills JavaScript into its most elegant and useful parts, helping you write better code.",
+      "features": [
+        "Covers the best features of JavaScript",
+        "Focuses on language subtleties",
+        "Includes practical examples",
+        "Written by a JavaScript pioneer",
+        "Great for intermediate to advanced developers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Learning Python, 5th Edition",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "The definitive guide to Python programming language, covering everything from basic syntax to advanced topics like decorators and generators.",
+      "features": [
+        "Covers Python 3.x features",
+        "Includes practical examples and exercises",
+        "Updated with modern Python practices",
+        "Written by Mark Lutz",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "name": "Java: The Complete Reference, 11th Edition",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 54.99,
+      "rating": 4.8,
+      "description": "The definitive guide to Java programming language, covering everything from basic syntax to advanced topics like concurrency and networking.",
+      "features": [
+        "Covers Java SE 11 features",
+        "Includes practical examples and exercises",
+        "Updated with modern Java practices",
+        "Written by Herbert Schildt",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 14,
+      "name": "HTML and CSS: Design and Build Websites",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to HTML and CSS, perfect for beginners who want to learn how to build beautiful, responsive websites.",
+      "features": [
+        "Covers HTML5 and CSS3",
+        "Includes practical examples and exercises",
+        "Great for beginners",
+        "Focuses on modern web design practices",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 15,
+      "name": "JavaScript: The Definitive Guide, 7th Edition",
+      "category": "Web Development",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.8,
+      "description": "The definitive guide to JavaScript programming language, covering everything from basic syntax to advanced topics like asynchronous programming and modules.",
+      "features": [
+        "Covers JavaScript ES2020 features",
+        "Includes practical examples and exercises",
+        "Updated with modern JavaScript practices",
+        "Written by David Flanagan",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "name": "Learning SQL: Master SQL Fundamentals",
+      "category": "Databases",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.5,
+      "description": "A hands-on introduction to SQL that teaches you how to query databases effectively.",
+      "features": [
+        "Covers SQL fundamentals",
+        "Includes practical examples and exercises",
+        "Great for beginners and intermediate developers",
+        "Focuses on real-world database applications",
+        "Updated with modern SQL practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 17,
+      "name": "RESTful Web APIs: Services for a Changing World",
+      "category": "APIs and Microservices",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to building RESTful web services, covering best practices and design patterns.",
+      "features": [
+        "Covers REST principles and practices",
+        "Includes practical examples and case studies",
+        "Great for beginners and experienced developers",
+        "Focuses on modern API design",
+        "Updated with latest web standards"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "name": "Microservices Patterns: With examples in Java",
+      "category": "APIs and Microservices",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "A comprehensive guide to microservices architecture, covering patterns and best practices for building scalable applications.",
+      "features": [
+        "Covers microservices design patterns",
+        "Includes practical examples in Java",
+        "Great for beginners and experienced developers",
+        "Focuses on real-world applications",
+        "Updated with latest microservices practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 100,
+      "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
+      "category": "Computer Science",
+      "price": 79.99,
+      "discountPrice": 69.99,
+      "rating": 4.9,
+      "description": "The bible of all fundamental algorithms and the work that taught many of today's software developers most of what they know about computer programming.",
+      "features": [
+        "Volume 1 of Knuth's magnum opus",
+        "Covers fundamental algorithms",
+        "Includes hundreds of exercises",
+        "Mathematically rigorous approach",
+        "Considered essential for serious programmers"
+      ],
+      "colors": ["Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41msKv2oN9L._SX418_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41msKv2oN9L._SX418_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Q4OZJzQQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81EJoW3ZwQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 1,
+      "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "category": "Programming",
+      "price": 45.99,
+      "discountPrice": 39.99,
+      "rating": 4.8,
+      "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. This book teaches you how to write clean code through practical examples.",
+      "features": [
+        "Written by Robert C. Martin (Uncle Bob)",
+        "Covers principles of clean code",
+        "Includes case studies of increasing complexity",
+        "Teaches heuristics and smells to avoid",
+        "Focuses on practical software craftsmanship"
+      ],
+      "colors": ["Paperback", "Hardcover", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Q4OZJzQQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81EJoW3ZwQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 49.99,
+      "rating": 4.7,
+      "description": "The Gang of Four's classic catalog of 23 patterns to solve common design problems. Essential reading for object-oriented designers.",
+      "features": [
+        "Catalog of 23 design patterns",
+        "Covers creational, structural, and behavioral patterns",
+        "Includes real-world examples",
+        "Written by Gamma, Helm, Johnson, and Vlissides",
+        "Considered a foundational programming text"
+      ],
+      "colors": ["Paperback", "Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71BPuv+iRbL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81gtKoapHFL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "The Pragmatic Programmer: Your Journey To Mastery",
+      "category": "Programming",
+      "price": 42.5,
+      "discountPrice": 37.99,
+      "rating": 4.8,
+      "description": "This book teaches you how to become a pragmatic programmer who produces flexible, easy-to-maintain software with pride and accountability.",
+      "features": [
+        "20th anniversary edition",
+        "Covers career development and technical skills",
+        "Includes practical tips and best practices",
+        "Updated with modern examples",
+        "Focuses on the essence of software development"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71f743sOPoL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VStYnDGrL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Eloquent JavaScript: A Modern Introduction to Programming",
+      "category": "Programming",
+      "price": 34.99,
+      "discountPrice": 29.99,
+      "rating": 4.6,
+      "description": "This much anticipated and thoroughly revised third edition teaches you JavaScript from the ground up. Covers up to ES2020 features.",
+      "features": [
+        "Completely revised and updated",
+        "Covers JavaScript up to ES2020",
+        "Includes exercises and projects",
+        "Free online version available",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71QEK+ZzsML._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81sBXJeTwLL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Python Crash Course, 2nd Edition",
+      "category": "Programming",
+      "price": 39.95,
+      "discountPrice": 34.95,
+      "rating": 4.7,
+      "description": "A hands-on, project-based introduction to programming using Python. Perfect for beginners who want to build practical applications.",
+      "features": [
+        "Covers Python 3",
+        "Includes projects on games, data visualization, and web apps",
+        "Exercises throughout each chapter",
+        "Updated content and additional projects",
+        "Great for self-learners"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "You Don't Know JS Yet: Get Started",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "The first book in the You Don't Know JS Yet series gets you started with the foundational concepts in JavaScript.",
+      "features": [
+        "First book in the popular YDKJS series",
+        "Covers JS fundamentals in depth",
+        "Updated for modern JavaScript (ES6+)",
+        "Great for beginners and experienced developers",
+        "Prepares you for the rest of the series"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41T5H8u7fUL._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41T5H8u7fUL._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81xQB5faEYL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "The Rust Programming Language",
+      "category": "Programming",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.8,
+      "description": "The official guide to Rust, a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.",
+      "features": [
+        "Official Rust book",
+        "Covers Rust 2018 edition",
+        "Written by Rust core developers",
+        "Hands-on projects",
+        "Great for systems programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Hj2SL3nVL._SX379_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51Hj2SL3nVL._SX379_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71kXY2b7QQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81v1BQjSkJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Head First Design Patterns: A Brain-Friendly Guide",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 42.5,
+      "rating": 4.7,
+      "description": "Using the latest research in cognitive science and learning theory, this book will load design patterns into your brain in a way that sticks.",
+      "features": [
+        "Brain-friendly approach to design patterns",
+        "Covers all Gang of Four patterns",
+        "Updated with modern examples",
+        "Includes exercises and puzzles",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/81D4A7q3rfL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VfIUFtMhL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "name": "Effective Java, 3rd Edition",
+      "category": "Programming",
+      "price": 54.99,
+      "discountPrice": 47.99,
+      "rating": 4.9,
+      "description": "The definitive guide to Java programming language best practices from the creator of the Java collections framework.",
+      "features": [
+        "Covers Java 7, 8, and 9 features",
+        "90 items of essential Java advice",
+        "Updated with modern Java best practices",
+        "Written by Joshua Bloch",
+        "Considered a must-read for Java developers"
+      ],
+      "colors": ["Paperback", "Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51wl8cINKYL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51wl8cINKYL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "https://m.media-amazon.com/images/I/71uQ87nQ0BL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81p-HvGqAQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Learning React: Modern Patterns for Developing React Apps",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "If you want to learn how to build efficient React applications, this is your book. Covers hooks, context API, and modern React patterns.",
+      "features": [
+        "Covers React hooks",
+        "Includes modern React patterns",
+        "Practical examples throughout",
+        "Great for beginners and intermediate developers",
+        "Updated for latest React features"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "JavaScript: The Good Parts",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "Douglas Crockford's classic book that distills JavaScript into its most elegant and useful parts, helping you write better code.",
+      "features": [
+        "Covers the best features of JavaScript",
+        "Focuses on language subtleties",
+        "Includes practical examples",
+        "Written by a JavaScript pioneer",
+        "Great for intermediate to advanced developers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Learning Python, 5th Edition",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "The definitive guide to Python programming language, covering everything from basic syntax to advanced topics like decorators and generators.",
+      "features": [
+        "Covers Python 3.x features",
+        "Includes practical examples and exercises",
+        "Updated with modern Python practices",
+        "Written by Mark Lutz",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "name": "Java: The Complete Reference, 11th Edition",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 54.99,
+      "rating": 4.8,
+      "description": "The definitive guide to Java programming language, covering everything from basic syntax to advanced topics like concurrency and networking.",
+      "features": [
+        "Covers Java SE 11 features",
+        "Includes practical examples and exercises",
+        "Updated with modern Java practices",
+        "Written by Herbert Schildt",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 14,
+      "name": "HTML and CSS: Design and Build Websites",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to HTML and CSS, perfect for beginners who want to learn how to build beautiful, responsive websites.",
+      "features": [
+        "Covers HTML5 and CSS3",
+        "Includes practical examples and exercises",
+        "Great for beginners",
+        "Focuses on modern web design practices",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 15,
+      "name": "JavaScript: The Definitive Guide, 7th Edition",
+      "category": "Web Development",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.8,
+      "description": "The definitive guide to JavaScript programming language, covering everything from basic syntax to advanced topics like asynchronous programming and modules.",
+      "features": [
+        "Covers JavaScript ES2020 features",
+        "Includes practical examples and exercises",
+        "Updated with modern JavaScript practices",
+        "Written by David Flanagan",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "name": "Learning SQL: Master SQL Fundamentals",
+      "category": "Databases",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.5,
+      "description": "A hands-on introduction to SQL that teaches you how to query databases effectively.",
+      "features": [
+        "Covers SQL fundamentals",
+        "Includes practical examples and exercises",
+        "Great for beginners and intermediate developers",
+        "Focuses on real-world database applications",
+        "Updated with modern SQL practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 17,
+      "name": "RESTful Web APIs: Services for a Changing World",
+      "category": "APIs and Microservices",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to building RESTful web services, covering best practices and design patterns.",
+      "features": [
+        "Covers REST principles and practices",
+        "Includes practical examples and case studies",
+        "Great for beginners and experienced developers",
+        "Focuses on modern API design",
+        "Updated with latest web standards"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "name": "Microservices Patterns: With examples in Java",
+      "category": "APIs and Microservices",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "A comprehensive guide to microservices architecture, covering patterns and best practices for building scalable applications.",
+      "features": [
+        "Covers microservices design patterns",
+        "Includes practical examples in Java",
+        "Great for beginners and experienced developers",
+        "Focuses on real-world applications",
+        "Updated with latest microservices practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 100,
+      "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
+      "category": "Computer Science",
+      "price": 79.99,
+      "discountPrice": 69.99,
+      "rating": 4.9,
+      "description": "The bible of all fundamental algorithms and the work that taught many of today's software developers most of what they know about computer programming.",
+      "features": [
+        "Volume 1 of Knuth's magnum opus",
+        "Covers fundamental algorithms",
+        "Includes hundreds of exercises",
+        "Mathematically rigorous approach",
+        "Considered essential for serious programmers"
+      ],
+      "colors": ["Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41msKv2oN9L._SX418_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41msKv2oN9L._SX418_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Q4OZJzQQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81EJoW3ZwQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 1,
+      "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "category": "Programming",
+      "price": 45.99,
+      "discountPrice": 39.99,
+      "rating": 4.8,
+      "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. This book teaches you how to write clean code through practical examples.",
+      "features": [
+        "Written by Robert C. Martin (Uncle Bob)",
+        "Covers principles of clean code",
+        "Includes case studies of increasing complexity",
+        "Teaches heuristics and smells to avoid",
+        "Focuses on practical software craftsmanship"
+      ],
+      "colors": ["Paperback", "Hardcover", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Q4OZJzQQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81EJoW3ZwQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 49.99,
+      "rating": 4.7,
+      "description": "The Gang of Four's classic catalog of 23 patterns to solve common design problems. Essential reading for object-oriented designers.",
+      "features": [
+        "Catalog of 23 design patterns",
+        "Covers creational, structural, and behavioral patterns",
+        "Includes real-world examples",
+        "Written by Gamma, Helm, Johnson, and Vlissides",
+        "Considered a foundational programming text"
+      ],
+      "colors": ["Paperback", "Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51szD9HC9pL._SX395_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71BPuv+iRbL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81gtKoapHFL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "The Pragmatic Programmer: Your Journey To Mastery",
+      "category": "Programming",
+      "price": 42.5,
+      "discountPrice": 37.99,
+      "rating": 4.8,
+      "description": "This book teaches you how to become a pragmatic programmer who produces flexible, easy-to-maintain software with pride and accountability.",
+      "features": [
+        "20th anniversary edition",
+        "Covers career development and technical skills",
+        "Includes practical tips and best practices",
+        "Updated with modern examples",
+        "Focuses on the essence of software development"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71f743sOPoL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VStYnDGrL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Eloquent JavaScript: A Modern Introduction to Programming",
+      "category": "Programming",
+      "price": 34.99,
+      "discountPrice": 29.99,
+      "rating": 4.6,
+      "description": "This much anticipated and thoroughly revised third edition teaches you JavaScript from the ground up. Covers up to ES2020 features.",
+      "features": [
+        "Completely revised and updated",
+        "Covers JavaScript up to ES2020",
+        "Includes exercises and projects",
+        "Free online version available",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71QEK+ZzsML._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81sBXJeTwLL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Python Crash Course, 2nd Edition",
+      "category": "Programming",
+      "price": 39.95,
+      "discountPrice": 34.95,
+      "rating": 4.7,
+      "description": "A hands-on, project-based introduction to programming using Python. Perfect for beginners who want to build practical applications.",
+      "features": [
+        "Covers Python 3",
+        "Includes projects on games, data visualization, and web apps",
+        "Exercises throughout each chapter",
+        "Updated content and additional projects",
+        "Great for self-learners"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "You Don't Know JS Yet: Get Started",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "The first book in the You Don't Know JS Yet series gets you started with the foundational concepts in JavaScript.",
+      "features": [
+        "First book in the popular YDKJS series",
+        "Covers JS fundamentals in depth",
+        "Updated for modern JavaScript (ES6+)",
+        "Great for beginners and experienced developers",
+        "Prepares you for the rest of the series"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41T5H8u7fUL._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41T5H8u7fUL._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71YHjVXyR0L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81xQB5faEYL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "The Rust Programming Language",
+      "category": "Programming",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.8,
+      "description": "The official guide to Rust, a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.",
+      "features": [
+        "Official Rust book",
+        "Covers Rust 2018 edition",
+        "Written by Rust core developers",
+        "Hands-on projects",
+        "Great for systems programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Hj2SL3nVL._SX379_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51Hj2SL3nVL._SX379_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71kXY2b7QQL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81v1BQjSkJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Head First Design Patterns: A Brain-Friendly Guide",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 42.5,
+      "rating": 4.7,
+      "description": "Using the latest research in cognitive science and learning theory, this book will load design patterns into your brain in a way that sticks.",
+      "features": [
+        "Brain-friendly approach to design patterns",
+        "Covers all Gang of Four patterns",
+        "Updated with modern examples",
+        "Includes exercises and puzzles",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/61APhXCksuL._SX430_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/81D4A7q3rfL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81VfIUFtMhL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "name": "Effective Java, 3rd Edition",
+      "category": "Programming",
+      "price": 54.99,
+      "discountPrice": 47.99,
+      "rating": 4.9,
+      "description": "The definitive guide to Java programming language best practices from the creator of the Java collections framework.",
+      "features": [
+        "Covers Java 7, 8, and 9 features",
+        "90 items of essential Java advice",
+        "Updated with modern Java best practices",
+        "Written by Joshua Bloch",
+        "Considered a must-read for Java developers"
+      ],
+      "colors": ["Paperback", "Hardcover"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51wl8cINKYL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51wl8cINKYL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg",
+        "https://m.media-amazon.com/images/I/71uQ87nQ0BL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81p-HvGqAQL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Learning React: Modern Patterns for Developing React Apps",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "If you want to learn how to build efficient React applications, this is your book. Covers hooks, context API, and modern React patterns.",
+      "features": [
+        "Covers React hooks",
+        "Includes modern React patterns",
+        "Practical examples throughout",
+        "Great for beginners and intermediate developers",
+        "Updated for latest React features"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51Kwaw5nInL._SX379_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "JavaScript: The Good Parts",
+      "category": "Web Development",
+      "price": 29.99,
+      "discountPrice": 24.99,
+      "rating": 4.5,
+      "description": "Douglas Crockford's classic book that distills JavaScript into its most elegant and useful parts, helping you write better code.",
+      "features": [
+        "Covers the best features of JavaScript",
+        "Focuses on language subtleties",
+        "Includes practical examples",
+        "Written by a JavaScript pioneer",
+        "Great for intermediate to advanced developers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/41Z1b2k8J6L._SX331_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71Qn1UEEiwL._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81XqZR+QwBL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Learning Python, 5th Edition",
+      "category": "Programming",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "The definitive guide to Python programming language, covering everything from basic syntax to advanced topics like decorators and generators.",
+      "features": [
+        "Covers Python 3.x features",
+        "Includes practical examples and exercises",
+        "Updated with modern Python practices",
+        "Written by Mark Lutz",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "name": "Java: The Complete Reference, 11th Edition",
+      "category": "Programming",
+      "price": 59.99,
+      "discountPrice": 54.99,
+      "rating": 4.8,
+      "description": "The definitive guide to Java programming language, covering everything from basic syntax to advanced topics like concurrency and networking.",
+      "features": [
+        "Covers Java SE 11 features",
+        "Includes practical examples and exercises",
+        "Updated with modern Java practices",
+        "Written by Herbert Schildt",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 14,
+      "name": "HTML and CSS: Design and Build Websites",
+      "category": "Web Development",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to HTML and CSS, perfect for beginners who want to learn how to build beautiful, responsive websites.",
+      "features": [
+        "Covers HTML5 and CSS3",
+        "Includes practical examples and exercises",
+        "Great for beginners",
+        "Focuses on modern web design practices",
+        "Visually rich format"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 15,
+      "name": "JavaScript: The Definitive Guide, 7th Edition",
+      "category": "Web Development",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.8,
+      "description": "The definitive guide to JavaScript programming language, covering everything from basic syntax to advanced topics like asynchronous programming and modules.",
+      "features": [
+        "Covers JavaScript ES2020 features",
+        "Includes practical examples and exercises",
+        "Updated with modern JavaScript practices",
+        "Written by David Flanagan",
+        "Great for beginners and experienced programmers"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "name": "Learning SQL: Master SQL Fundamentals",
+      "category": "Databases",
+      "price": 39.99,
+      "discountPrice": 34.99,
+      "rating": 4.5,
+      "description": "A hands-on introduction to SQL that teaches you how to query databases effectively.",
+      "features": [
+        "Covers SQL fundamentals",
+        "Includes practical examples and exercises",
+        "Great for beginners and intermediate developers",
+        "Focuses on real-world database applications",
+        "Updated with modern SQL practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 17,
+      "name": "RESTful Web APIs: Services for a Changing World",
+      "category": "APIs and Microservices",
+      "price": 44.99,
+      "discountPrice": 39.99,
+      "rating": 4.6,
+      "description": "A comprehensive guide to building RESTful web services, covering best practices and design patterns.",
+      "features": [
+        "Covers REST principles and practices",
+        "Includes practical examples and case studies",
+        "Great for beginners and experienced developers",
+        "Focuses on modern API design",
+        "Updated with latest web standards"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "name": "Microservices Patterns: With examples in Java",
+      "category": "APIs and Microservices",
+      "price": 49.99,
+      "discountPrice": 44.99,
+      "rating": 4.7,
+      "description": "A comprehensive guide to microservices architecture, covering patterns and best practices for building scalable applications.",
+      "features": [
+        "Covers microservices design patterns",
+        "Includes practical examples in Java",
+        "Great for beginners and experienced developers",
+        "Focuses on real-world applications",
+        "Updated with latest microservices practices"
+      ],
+      "colors": ["Paperback", "eBook"],
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+      "images": [
+        "https://images-na.ssl-images-amazon.com/images/I/51j89lmxnpL._SX377_BO1,204,203,200_.jpg",
+        "https://m.media-amazon.com/images/I/71NUZ+rHN2L._AC_UF1000,1000_QL80_.jpg",
+        "https://m.media-amazon.com/images/I/81ZPdlN1qJL._AC_UF1000,1000_QL80_.jpg"
       ],
       "inStock": true
     },

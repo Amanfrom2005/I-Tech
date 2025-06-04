@@ -78,9 +78,9 @@ const ProductDetailPage = () => {
   }
 
   return (
-    <div className="container mx-auto w-full h-screen flex flex-col justify-center items-center mt-[40px]">
+    <div className="container mx-auto w-full h-screen flex flex-col justify-center items-center">
 
-      <div className="bg-white shadow-sm overflow-hidden p-4">
+      <div className=" shadow-sm overflow-hidden p-4">
         <div className="flex flex-col lg:flex-row">
           {/* Product Images */}
           <div className="lg:w-1/2">
@@ -234,6 +234,7 @@ const ProductDetailPage = () => {
             ))}
           </ul>
         </div>
+        
       </div>
     </div>
   );

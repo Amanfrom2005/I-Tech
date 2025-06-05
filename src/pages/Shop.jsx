@@ -125,14 +125,14 @@ const ShopPage = () => {
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value)}
-              className="appearance-none bg-white border border-gray-300 px-3 py-2 pr-8 rounded-lg text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="clip-path appearance-none bg-white px-3 py-2 pr-8 rounded-sm text-black"
             >
-              <option value="default">Newest</option>
-              <option value="price-low-high">Price: Low to High</option>
-              <option value="price-high-low">Price: High to Low</option>
-              <option value="rating">Best Rating</option>
+              <option value="default" className="clip-path bg-black border-0 hover:text-primary hover:bg-n">Newest</option>
+              <option value="price-low-high" className="clip-path bg-black border-0 hover:text-primary hover:bg-n">Price: Low to High</option>
+              <option value="price-high-low" className="clip-path bg-black border-0 hover:text-primary hover:bg-n">Price: High to Low</option>
+              <option value="rating" className="clip-path bg-black border-0 hover:text-primary hover:bg-n">Best Rating</option>
             </select>
-            <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+            <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 bg-secondary">
               <SlidersHorizontal size={16} />
             </div>
           </div>

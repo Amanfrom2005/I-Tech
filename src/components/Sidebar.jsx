@@ -147,13 +147,6 @@ const Sidebar = ({ isOpen, closeSidebar }) => {
               </ul>
             </div>
           </nav>
-
-          {/* Footer */}
-          <div className="px-4 py-3 border-t border-gray-800 text-center">
-            <p className="text-xs text-gray-500">
-              © {new Date().getFullYear()} Books Shop
-            </p>
-          </div>
         </div>
       </aside>
     </>

@@ -446,7 +446,7 @@
       "inStock": true
     },
     {
-      "id": 100,
+      "id": 19,
       "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
       "category": "Computer Science",
       "price": 79.99,
@@ -470,7 +470,7 @@
       "inStock": true
     },
     {
-      "id": 1,
+      "id": 20,
       "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
       "category": "Programming",
       "price": 45.99,
@@ -494,7 +494,7 @@
       "inStock": true
     },
     {
-      "id": 2,
+      "id": 21,
       "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
       "category": "Programming",
       "price": 59.99,
@@ -518,7 +518,7 @@
       "inStock": true
     },
     {
-      "id": 3,
+      "id": 22,
       "name": "The Pragmatic Programmer: Your Journey To Mastery",
       "category": "Programming",
       "price": 42.5,
@@ -542,7 +542,7 @@
       "inStock": true
     },
     {
-      "id": 4,
+      "id": 23,
       "name": "Eloquent JavaScript: A Modern Introduction to Programming",
       "category": "Programming",
       "price": 34.99,
@@ -566,7 +566,7 @@
       "inStock": true
     },
     {
-      "id": 5,
+      "id": 24,
       "name": "Python Crash Course, 2nd Edition",
       "category": "Programming",
       "price": 39.95,
@@ -590,7 +590,7 @@
       "inStock": true
     },
     {
-      "id": 6,
+      "id": 25,
       "name": "You Don't Know JS Yet: Get Started",
       "category": "Web Development",
       "price": 29.99,
@@ -614,7 +614,7 @@
       "inStock": true
     },
     {
-      "id": 7,
+      "id": 26,
       "name": "The Rust Programming Language",
       "category": "Programming",
       "price": 44.99,
@@ -638,7 +638,7 @@
       "inStock": true
     },
     {
-      "id": 8,
+      "id": 27,
       "name": "Head First Design Patterns: A Brain-Friendly Guide",
       "category": "Programming",
       "price": 49.99,
@@ -662,7 +662,7 @@
       "inStock": true
     },
     {
-      "id": 9,
+      "id": 28,
       "name": "Effective Java, 3rd Edition",
       "category": "Programming",
       "price": 54.99,
@@ -686,7 +686,7 @@
       "inStock": true
     },
     {
-      "id": 10,
+      "id": 29,
       "name": "Learning React: Modern Patterns for Developing React Apps",
       "category": "Web Development",
       "price": 39.99,
@@ -710,7 +710,7 @@
       "inStock": true
     },
     {
-      "id": 11,
+      "id": 30,
       "name": "JavaScript: The Good Parts",
       "category": "Web Development",
       "price": 29.99,
@@ -734,7 +734,7 @@
       "inStock": true
     },
     {
-      "id": 12,
+      "id": 31,
       "name": "Learning Python, 5th Edition",
       "category": "Programming",
       "price": 49.99,
@@ -758,7 +758,7 @@
       "inStock": true
     },
     {
-      "id": 13,
+      "id": 32,
       "name": "Java: The Complete Reference, 11th Edition",
       "category": "Programming",
       "price": 59.99,
@@ -782,7 +782,7 @@
       "inStock": true
     },
     {
-      "id": 14,
+      "id": 33,
       "name": "HTML and CSS: Design and Build Websites",
       "category": "Web Development",
       "price": 39.99,
@@ -806,7 +806,7 @@
       "inStock": true
     },
     {
-      "id": 15,
+      "id": 34,
       "name": "JavaScript: The Definitive Guide, 7th Edition",
       "category": "Web Development",
       "price": 49.99,
@@ -830,7 +830,7 @@
       "inStock": true
     },
     {
-      "id": 16,
+      "id": 35,
       "name": "Learning SQL: Master SQL Fundamentals",
       "category": "Databases",
       "price": 39.99,
@@ -854,7 +854,7 @@
       "inStock": true
     },
     {
-      "id": 17,
+      "id": 36,
       "name": "RESTful Web APIs: Services for a Changing World",
       "category": "APIs and Microservices",
       "price": 44.99,
@@ -878,7 +878,7 @@
       "inStock": true
     },
     {
-      "id": 18,
+      "id": 37,
       "name": "Microservices Patterns: With examples in Java",
       "category": "APIs and Microservices",
       "price": 49.99,
@@ -902,7 +902,7 @@
       "inStock": true
     },
     {
-      "id": 100,
+      "id": 38,
       "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
       "category": "Computer Science",
       "price": 79.99,
@@ -926,7 +926,7 @@
       "inStock": true
     },
     {
-      "id": 1,
+      "id": 39,
       "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
       "category": "Programming",
       "price": 45.99,
@@ -950,7 +950,7 @@
       "inStock": true
     },
     {
-      "id": 2,
+      "id": 40,
       "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
       "category": "Programming",
       "price": 59.99,
@@ -974,7 +974,7 @@
       "inStock": true
     },
     {
-      "id": 3,
+      "id": 41,
       "name": "The Pragmatic Programmer: Your Journey To Mastery",
       "category": "Programming",
       "price": 42.5,
@@ -998,7 +998,7 @@
       "inStock": true
     },
     {
-      "id": 4,
+      "id": 42,
       "name": "Eloquent JavaScript: A Modern Introduction to Programming",
       "category": "Programming",
       "price": 34.99,
@@ -1022,7 +1022,7 @@
       "inStock": true
     },
     {
-      "id": 5,
+      "id": 43,
       "name": "Python Crash Course, 2nd Edition",
       "category": "Programming",
       "price": 39.95,
@@ -1046,7 +1046,7 @@
       "inStock": true
     },
     {
-      "id": 6,
+      "id": 44,
       "name": "You Don't Know JS Yet: Get Started",
       "category": "Web Development",
       "price": 29.99,
@@ -1070,7 +1070,7 @@
       "inStock": true
     },
     {
-      "id": 7,
+      "id": 45,
       "name": "The Rust Programming Language",
       "category": "Programming",
       "price": 44.99,
@@ -1094,7 +1094,7 @@
       "inStock": true
     },
     {
-      "id": 8,
+      "id": 46,
       "name": "Head First Design Patterns: A Brain-Friendly Guide",
       "category": "Programming",
       "price": 49.99,
@@ -1118,7 +1118,7 @@
       "inStock": true
     },
     {
-      "id": 9,
+      "id": 47,
       "name": "Effective Java, 3rd Edition",
       "category": "Programming",
       "price": 54.99,
@@ -1142,7 +1142,7 @@
       "inStock": true
     },
     {
-      "id": 10,
+      "id": 48,
       "name": "Learning React: Modern Patterns for Developing React Apps",
       "category": "Web Development",
       "price": 39.99,
@@ -1166,7 +1166,7 @@
       "inStock": true
     },
     {
-      "id": 11,
+      "id": 49,
       "name": "JavaScript: The Good Parts",
       "category": "Web Development",
       "price": 29.99,
@@ -1190,7 +1190,7 @@
       "inStock": true
     },
     {
-      "id": 12,
+      "id": 50,
       "name": "Learning Python, 5th Edition",
       "category": "Programming",
       "price": 49.99,
@@ -1214,7 +1214,7 @@
       "inStock": true
     },
     {
-      "id": 13,
+      "id": 51,
       "name": "Java: The Complete Reference, 11th Edition",
       "category": "Programming",
       "price": 59.99,
@@ -1238,7 +1238,7 @@
       "inStock": true
     },
     {
-      "id": 14,
+      "id": 52,
       "name": "HTML and CSS: Design and Build Websites",
       "category": "Web Development",
       "price": 39.99,
@@ -1262,7 +1262,7 @@
       "inStock": true
     },
     {
-      "id": 15,
+      "id": 53,
       "name": "JavaScript: The Definitive Guide, 7th Edition",
       "category": "Web Development",
       "price": 49.99,
@@ -1286,7 +1286,7 @@
       "inStock": true
     },
     {
-      "id": 16,
+      "id": 54,
       "name": "Learning SQL: Master SQL Fundamentals",
       "category": "Databases",
       "price": 39.99,
@@ -1310,7 +1310,7 @@
       "inStock": true
     },
     {
-      "id": 17,
+      "id": 55,
       "name": "RESTful Web APIs: Services for a Changing World",
       "category": "APIs and Microservices",
       "price": 44.99,
@@ -1334,7 +1334,7 @@
       "inStock": true
     },
     {
-      "id": 18,
+      "id": 56,
       "name": "Microservices Patterns: With examples in Java",
       "category": "APIs and Microservices",
       "price": 49.99,
@@ -1358,7 +1358,7 @@
       "inStock": true
     },
     {
-      "id": 100,
+      "id": 57,
       "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
       "category": "Computer Science",
       "price": 79.99,
@@ -1382,7 +1382,7 @@
       "inStock": true
     },
     {
-      "id": 1,
+      "id": 58,
       "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
       "category": "Programming",
       "price": 45.99,
@@ -1406,7 +1406,7 @@
       "inStock": true
     },
     {
-      "id": 2,
+      "id": 59,
       "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
       "category": "Programming",
       "price": 59.99,
@@ -1430,7 +1430,7 @@
       "inStock": true
     },
     {
-      "id": 3,
+      "id": 60,
       "name": "The Pragmatic Programmer: Your Journey To Mastery",
       "category": "Programming",
       "price": 42.5,
@@ -1454,7 +1454,7 @@
       "inStock": true
     },
     {
-      "id": 4,
+      "id": 61,
       "name": "Eloquent JavaScript: A Modern Introduction to Programming",
       "category": "Programming",
       "price": 34.99,
@@ -1478,7 +1478,7 @@
       "inStock": true
     },
     {
-      "id": 5,
+      "id": 62,
       "name": "Python Crash Course, 2nd Edition",
       "category": "Programming",
       "price": 39.95,
@@ -1502,7 +1502,7 @@
       "inStock": true
     },
     {
-      "id": 6,
+      "id": 63,
       "name": "You Don't Know JS Yet: Get Started",
       "category": "Web Development",
       "price": 29.99,
@@ -1526,7 +1526,7 @@
       "inStock": true
     },
     {
-      "id": 7,
+      "id": 64,
       "name": "The Rust Programming Language",
       "category": "Programming",
       "price": 44.99,
@@ -1550,7 +1550,7 @@
       "inStock": true
     },
     {
-      "id": 8,
+      "id": 65,
       "name": "Head First Design Patterns: A Brain-Friendly Guide",
       "category": "Programming",
       "price": 49.99,
@@ -1574,7 +1574,7 @@
       "inStock": true
     },
     {
-      "id": 9,
+      "id": 66,
       "name": "Effective Java, 3rd Edition",
       "category": "Programming",
       "price": 54.99,
@@ -1598,7 +1598,7 @@
       "inStock": true
     },
     {
-      "id": 10,
+      "id": 67,
       "name": "Learning React: Modern Patterns for Developing React Apps",
       "category": "Web Development",
       "price": 39.99,
@@ -1622,7 +1622,7 @@
       "inStock": true
     },
     {
-      "id": 11,
+      "id": 68,
       "name": "JavaScript: The Good Parts",
       "category": "Web Development",
       "price": 29.99,
@@ -1646,7 +1646,7 @@
       "inStock": true
     },
     {
-      "id": 12,
+      "id": 69,
       "name": "Learning Python, 5th Edition",
       "category": "Programming",
       "price": 49.99,
@@ -1670,7 +1670,7 @@
       "inStock": true
     },
     {
-      "id": 13,
+      "id": 70,
       "name": "Java: The Complete Reference, 11th Edition",
       "category": "Programming",
       "price": 59.99,
@@ -1694,7 +1694,7 @@
       "inStock": true
     },
     {
-      "id": 14,
+      "id": 71,
       "name": "HTML and CSS: Design and Build Websites",
       "category": "Web Development",
       "price": 39.99,
@@ -1718,7 +1718,7 @@
       "inStock": true
     },
     {
-      "id": 15,
+      "id": 72,
       "name": "JavaScript: The Definitive Guide, 7th Edition",
       "category": "Web Development",
       "price": 49.99,
@@ -1742,7 +1742,7 @@
       "inStock": true
     },
     {
-      "id": 16,
+      "id": 73,
       "name": "Learning SQL: Master SQL Fundamentals",
       "category": "Databases",
       "price": 39.99,
@@ -1766,7 +1766,7 @@
       "inStock": true
     },
     {
-      "id": 17,
+      "id": 74,
       "name": "RESTful Web APIs: Services for a Changing World",
       "category": "APIs and Microservices",
       "price": 44.99,
@@ -1790,7 +1790,7 @@
       "inStock": true
     },
     {
-      "id": 18,
+      "id": 75,
       "name": "Microservices Patterns: With examples in Java",
       "category": "APIs and Microservices",
       "price": 49.99,
@@ -1814,7 +1814,7 @@
       "inStock": true
     },
     {
-      "id": 100,
+      "id": 76,
       "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
       "category": "Computer Science",
       "price": 79.99,
@@ -1838,7 +1838,7 @@
       "inStock": true
     },
     {
-      "id": 1,
+      "id": 77,
       "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
       "category": "Programming",
       "price": 45.99,
@@ -1862,7 +1862,7 @@
       "inStock": true
     },
     {
-      "id": 2,
+      "id": 78,
       "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
       "category": "Programming",
       "price": 59.99,
@@ -1886,7 +1886,7 @@
       "inStock": true
     },
     {
-      "id": 3,
+      "id": 79,
       "name": "The Pragmatic Programmer: Your Journey To Mastery",
       "category": "Programming",
       "price": 42.5,
@@ -1910,7 +1910,7 @@
       "inStock": true
     },
     {
-      "id": 4,
+      "id": 80,
       "name": "Eloquent JavaScript: A Modern Introduction to Programming",
       "category": "Programming",
       "price": 34.99,
@@ -1934,7 +1934,7 @@
       "inStock": true
     },
     {
-      "id": 5,
+      "id": 81,
       "name": "Python Crash Course, 2nd Edition",
       "category": "Programming",
       "price": 39.95,
@@ -1958,7 +1958,7 @@
       "inStock": true
     },
     {
-      "id": 6,
+      "id": 82,
       "name": "You Don't Know JS Yet: Get Started",
       "category": "Web Development",
       "price": 29.99,
@@ -1982,7 +1982,7 @@
       "inStock": true
     },
     {
-      "id": 7,
+      "id": 83,
       "name": "The Rust Programming Language",
       "category": "Programming",
       "price": 44.99,
@@ -2006,7 +2006,7 @@
       "inStock": true
     },
     {
-      "id": 8,
+      "id": 84,
       "name": "Head First Design Patterns: A Brain-Friendly Guide",
       "category": "Programming",
       "price": 49.99,
@@ -2030,7 +2030,7 @@
       "inStock": true
     },
     {
-      "id": 9,
+      "id": 85,
       "name": "Effective Java, 3rd Edition",
       "category": "Programming",
       "price": 54.99,
@@ -2054,7 +2054,7 @@
       "inStock": true
     },
     {
-      "id": 10,
+      "id": 86,
       "name": "Learning React: Modern Patterns for Developing React Apps",
       "category": "Web Development",
       "price": 39.99,
@@ -2078,7 +2078,7 @@
       "inStock": true
     },
     {
-      "id": 11,
+      "id": 87,
       "name": "JavaScript: The Good Parts",
       "category": "Web Development",
       "price": 29.99,
@@ -2102,7 +2102,7 @@
       "inStock": true
     },
     {
-      "id": 12,
+      "id": 88,
       "name": "Learning Python, 5th Edition",
       "category": "Programming",
       "price": 49.99,
@@ -2126,7 +2126,7 @@
       "inStock": true
     },
     {
-      "id": 13,
+      "id": 89,
       "name": "Java: The Complete Reference, 11th Edition",
       "category": "Programming",
       "price": 59.99,
@@ -2150,7 +2150,7 @@
       "inStock": true
     },
     {
-      "id": 14,
+      "id": 90,
       "name": "HTML and CSS: Design and Build Websites",
       "category": "Web Development",
       "price": 39.99,
@@ -2174,7 +2174,7 @@
       "inStock": true
     },
     {
-      "id": 15,
+      "id": 91,
       "name": "JavaScript: The Definitive Guide, 7th Edition",
       "category": "Web Development",
       "price": 49.99,
@@ -2198,7 +2198,7 @@
       "inStock": true
     },
     {
-      "id": 16,
+      "id": 92,
       "name": "Learning SQL: Master SQL Fundamentals",
       "category": "Databases",
       "price": 39.99,
@@ -2222,7 +2222,7 @@
       "inStock": true
     },
     {
-      "id": 17,
+      "id": 93,
       "name": "RESTful Web APIs: Services for a Changing World",
       "category": "APIs and Microservices",
       "price": 44.99,
@@ -2246,7 +2246,7 @@
       "inStock": true
     },
     {
-      "id": 18,
+      "id": 94,
       "name": "Microservices Patterns: With examples in Java",
       "category": "APIs and Microservices",
       "price": 49.99,
@@ -2270,7 +2270,7 @@
       "inStock": true
     },
     {
-      "id": 100,
+      "id": 95,
       "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
       "category": "Computer Science",
       "price": 79.99,
@@ -2294,7 +2294,7 @@
       "inStock": true
     },
     {
-      "id": 1,
+      "id": 96,
       "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
       "category": "Programming",
       "price": 45.99,
@@ -2318,7 +2318,7 @@
       "inStock": true
     },
     {
-      "id": 2,
+      "id": 97,
       "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
       "category": "Programming",
       "price": 59.99,
@@ -2342,7 +2342,7 @@
       "inStock": true
     },
     {
-      "id": 3,
+      "id": 98,
       "name": "The Pragmatic Programmer: Your Journey To Mastery",
       "category": "Programming",
       "price": 42.5,
@@ -2366,7 +2366,7 @@
       "inStock": true
     },
     {
-      "id": 4,
+      "id": 99,
       "name": "Eloquent JavaScript: A Modern Introduction to Programming",
       "category": "Programming",
       "price": 34.99,
@@ -2390,7 +2390,7 @@
       "inStock": true
     },
     {
-      "id": 5,
+      "id": 100,
       "name": "Python Crash Course, 2nd Edition",
       "category": "Programming",
       "price": 39.95,
@@ -2414,7 +2414,7 @@
       "inStock": true
     },
     {
-      "id": 6,
+      "id": 101,
       "name": "You Don't Know JS Yet: Get Started",
       "category": "Web Development",
       "price": 29.99,
@@ -2438,7 +2438,7 @@
       "inStock": true
     },
     {
-      "id": 7,
+      "id": 102,
       "name": "The Rust Programming Language",
       "category": "Programming",
       "price": 44.99,
@@ -2462,7 +2462,7 @@
       "inStock": true
     },
     {
-      "id": 8,
+      "id": 103,
       "name": "Head First Design Patterns: A Brain-Friendly Guide",
       "category": "Programming",
       "price": 49.99,
@@ -2486,7 +2486,7 @@
       "inStock": true
     },
     {
-      "id": 9,
+      "id": 104,
       "name": "Effective Java, 3rd Edition",
       "category": "Programming",
       "price": 54.99,
@@ -2510,7 +2510,7 @@
       "inStock": true
     },
     {
-      "id": 10,
+      "id": 105,
       "name": "Learning React: Modern Patterns for Developing React Apps",
       "category": "Web Development",
       "price": 39.99,
@@ -2534,7 +2534,7 @@
       "inStock": true
     },
     {
-      "id": 11,
+      "id": 106,
       "name": "JavaScript: The Good Parts",
       "category": "Web Development",
       "price": 29.99,
@@ -2558,7 +2558,7 @@
       "inStock": true
     },
     {
-      "id": 12,
+      "id": 107,
       "name": "Learning Python, 5th Edition",
       "category": "Programming",
       "price": 49.99,
@@ -2582,7 +2582,7 @@
       "inStock": true
     },
     {
-      "id": 13,
+      "id": 108,
       "name": "Java: The Complete Reference, 11th Edition",
       "category": "Programming",
       "price": 59.99,
@@ -2606,7 +2606,7 @@
       "inStock": true
     },
     {
-      "id": 14,
+      "id": 109,
       "name": "HTML and CSS: Design and Build Websites",
       "category": "Web Development",
       "price": 39.99,
@@ -2630,7 +2630,7 @@
       "inStock": true
     },
     {
-      "id": 15,
+      "id": 110,
       "name": "JavaScript: The Definitive Guide, 7th Edition",
       "category": "Web Development",
       "price": 49.99,
@@ -2654,7 +2654,7 @@
       "inStock": true
     },
     {
-      "id": 16,
+      "id": 111,
       "name": "Learning SQL: Master SQL Fundamentals",
       "category": "Databases",
       "price": 39.99,
@@ -2678,7 +2678,7 @@
       "inStock": true
     },
     {
-      "id": 17,
+      "id": 112,
       "name": "RESTful Web APIs: Services for a Changing World",
       "category": "APIs and Microservices",
       "price": 44.99,
@@ -2702,7 +2702,7 @@
       "inStock": true
     },
     {
-      "id": 18,
+      "id": 113,
       "name": "Microservices Patterns: With examples in Java",
       "category": "APIs and Microservices",
       "price": 49.99,
@@ -2726,7 +2726,7 @@
       "inStock": true
     },
     {
-      "id": 100,
+      "id": 114,
       "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
       "category": "Computer Science",
       "price": 79.99,
@@ -2750,7 +2750,7 @@
       "inStock": true
     },
     {
-      "id": 1,
+      "id": 115,
       "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
       "category": "Programming",
       "price": 45.99,
@@ -2774,7 +2774,7 @@
       "inStock": true
     },
     {
-      "id": 2,
+      "id": 116,
       "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
       "category": "Programming",
       "price": 59.99,
@@ -2798,7 +2798,7 @@
       "inStock": true
     },
     {
-      "id": 3,
+      "id": 117,
       "name": "The Pragmatic Programmer: Your Journey To Mastery",
       "category": "Programming",
       "price": 42.5,
@@ -2822,7 +2822,7 @@
       "inStock": true
     },
     {
-      "id": 4,
+      "id": 118,
       "name": "Eloquent JavaScript: A Modern Introduction to Programming",
       "category": "Programming",
       "price": 34.99,
@@ -2846,7 +2846,7 @@
       "inStock": true
     },
     {
-      "id": 5,
+      "id": 119,
       "name": "Python Crash Course, 2nd Edition",
       "category": "Programming",
       "price": 39.95,
@@ -2870,7 +2870,7 @@
       "inStock": true
     },
     {
-      "id": 6,
+      "id": 120,
       "name": "You Don't Know JS Yet: Get Started",
       "category": "Web Development",
       "price": 29.99,
@@ -2894,7 +2894,7 @@
       "inStock": true
     },
     {
-      "id": 7,
+      "id": 121,
       "name": "The Rust Programming Language",
       "category": "Programming",
       "price": 44.99,
@@ -2918,7 +2918,7 @@
       "inStock": true
     },
     {
-      "id": 8,
+      "id": 122,
       "name": "Head First Design Patterns: A Brain-Friendly Guide",
       "category": "Programming",
       "price": 49.99,
@@ -2942,7 +2942,7 @@
       "inStock": true
     },
     {
-      "id": 9,
+      "id": 123,
       "name": "Effective Java, 3rd Edition",
       "category": "Programming",
       "price": 54.99,
@@ -2966,7 +2966,7 @@
       "inStock": true
     },
     {
-      "id": 10,
+      "id": 124,
       "name": "Learning React: Modern Patterns for Developing React Apps",
       "category": "Web Development",
       "price": 39.99,
@@ -2990,7 +2990,7 @@
       "inStock": true
     },
     {
-      "id": 11,
+      "id": 125,
       "name": "JavaScript: The Good Parts",
       "category": "Web Development",
       "price": 29.99,
@@ -3014,7 +3014,7 @@
       "inStock": true
     },
     {
-      "id": 12,
+      "id": 126,
       "name": "Learning Python, 5th Edition",
       "category": "Programming",
       "price": 49.99,
@@ -3038,7 +3038,7 @@
       "inStock": true
     },
     {
-      "id": 13,
+      "id": 127,
       "name": "Java: The Complete Reference, 11th Edition",
       "category": "Programming",
       "price": 59.99,
@@ -3062,7 +3062,7 @@
       "inStock": true
     },
     {
-      "id": 14,
+      "id": 128,
       "name": "HTML and CSS: Design and Build Websites",
       "category": "Web Development",
       "price": 39.99,
@@ -3086,7 +3086,7 @@
       "inStock": true
     },
     {
-      "id": 15,
+      "id": 129,
       "name": "JavaScript: The Definitive Guide, 7th Edition",
       "category": "Web Development",
       "price": 49.99,
@@ -3110,7 +3110,7 @@
       "inStock": true
     },
     {
-      "id": 16,
+      "id": 130,
       "name": "Learning SQL: Master SQL Fundamentals",
       "category": "Databases",
       "price": 39.99,
@@ -3134,7 +3134,7 @@
       "inStock": true
     },
     {
-      "id": 17,
+      "id": 131,
       "name": "RESTful Web APIs: Services for a Changing World",
       "category": "APIs and Microservices",
       "price": 44.99,
@@ -3158,7 +3158,7 @@
       "inStock": true
     },
     {
-      "id": 18,
+      "id": 132,
       "name": "Microservices Patterns: With examples in Java",
       "category": "APIs and Microservices",
       "price": 49.99,
@@ -3182,7 +3182,7 @@
       "inStock": true
     },
     {
-      "id": 100,
+      "id": 133,
       "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
       "category": "Computer Science",
       "price": 79.99,
@@ -3206,7 +3206,7 @@
       "inStock": true
     },
     {
-      "id": 1,
+      "id": 134,
       "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
       "category": "Programming",
       "price": 45.99,
@@ -3230,7 +3230,7 @@
       "inStock": true
     },
     {
-      "id": 2,
+      "id": 135,
       "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
       "category": "Programming",
       "price": 59.99,
@@ -3254,7 +3254,7 @@
       "inStock": true
     },
     {
-      "id": 3,
+      "id": 136,
       "name": "The Pragmatic Programmer: Your Journey To Mastery",
       "category": "Programming",
       "price": 42.5,
@@ -3278,7 +3278,7 @@
       "inStock": true
     },
     {
-      "id": 4,
+      "id": 137,
       "name": "Eloquent JavaScript: A Modern Introduction to Programming",
       "category": "Programming",
       "price": 34.99,
@@ -3302,7 +3302,7 @@
       "inStock": true
     },
     {
-      "id": 5,
+      "id": 138,
       "name": "Python Crash Course, 2nd Edition",
       "category": "Programming",
       "price": 39.95,
@@ -3326,7 +3326,7 @@
       "inStock": true
     },
     {
-      "id": 6,
+      "id": 139,
       "name": "You Don't Know JS Yet: Get Started",
       "category": "Web Development",
       "price": 29.99,
@@ -3350,7 +3350,7 @@
       "inStock": true
     },
     {
-      "id": 7,
+      "id": 140,
       "name": "The Rust Programming Language",
       "category": "Programming",
       "price": 44.99,
@@ -3374,7 +3374,7 @@
       "inStock": true
     },
     {
-      "id": 8,
+      "id": 141,
       "name": "Head First Design Patterns: A Brain-Friendly Guide",
       "category": "Programming",
       "price": 49.99,
@@ -3398,7 +3398,7 @@
       "inStock": true
     },
     {
-      "id": 9,
+      "id": 142,
       "name": "Effective Java, 3rd Edition",
       "category": "Programming",
       "price": 54.99,
@@ -3422,7 +3422,7 @@
       "inStock": true
     },
     {
-      "id": 10,
+      "id": 143,
       "name": "Learning React: Modern Patterns for Developing React Apps",
       "category": "Web Development",
       "price": 39.99,
@@ -3446,7 +3446,7 @@
       "inStock": true
     },
     {
-      "id": 11,
+      "id": 144,
       "name": "JavaScript: The Good Parts",
       "category": "Web Development",
       "price": 29.99,
@@ -3470,7 +3470,7 @@
       "inStock": true
     },
     {
-      "id": 12,
+      "id": 145,
       "name": "Learning Python, 5th Edition",
       "category": "Programming",
       "price": 49.99,
@@ -3494,7 +3494,7 @@
       "inStock": true
     },
     {
-      "id": 13,
+      "id": 146,
       "name": "Java: The Complete Reference, 11th Edition",
       "category": "Programming",
       "price": 59.99,
@@ -3518,7 +3518,7 @@
       "inStock": true
     },
     {
-      "id": 14,
+      "id": 147,
       "name": "HTML and CSS: Design and Build Websites",
       "category": "Web Development",
       "price": 39.99,
@@ -3542,7 +3542,7 @@
       "inStock": true
     },
     {
-      "id": 15,
+      "id": 148,
       "name": "JavaScript: The Definitive Guide, 7th Edition",
       "category": "Web Development",
       "price": 49.99,
@@ -3566,7 +3566,7 @@
       "inStock": true
     },
     {
-      "id": 16,
+      "id": 149,
       "name": "Learning SQL: Master SQL Fundamentals",
       "category": "Databases",
       "price": 39.99,
@@ -3590,7 +3590,7 @@
       "inStock": true
     },
     {
-      "id": 17,
+      "id": 150,
       "name": "RESTful Web APIs: Services for a Changing World",
       "category": "APIs and Microservices",
       "price": 44.99,
@@ -3614,7 +3614,7 @@
       "inStock": true
     },
     {
-      "id": 18,
+      "id": 151,
       "name": "Microservices Patterns: With examples in Java",
       "category": "APIs and Microservices",
       "price": 49.99,
@@ -3638,11 +3638,11 @@
       "inStock": true
     },
     {
-      "id": 100,
+      "id": 152,
       "name": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms",
       "category": "Computer Science",
       "price": 79.99,
-      "discountPrice": 69.99,
+      "discountPrice": 10,
       "rating": 4.9,
       "description": "The bible of all fundamental algorithms and the work that taught many of today's software developers most of what they know about computer programming.",
       "features": [
